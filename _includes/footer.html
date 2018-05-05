@@ -3,7 +3,7 @@
     <div class="social w3-center">
       {% for x in site.data.social %}
         <a target="_blank" href="{{ x.link }}">
-        <i class="fa fa-{{ x.icon }} fa-2x" style="color:{{ x.color }}"></i></a>
+        <i class="{{ x.icon }} fa-2x" style="color:{{ x.color }}"></i></a>
       {% endfor %}
     <div>
     <div class="w3-center">
@@ -11,7 +11,18 @@
     </div>
 </footer>
 <style>
-.social [class*="fa fa-"] {
+.social [class*="fas fa-"] {
+    background-color: #ffffff;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin: auto 2px;
+    width: 50px;
+    text-align: center;
+}
+.social [class*="fab fa-"] {
     background-color: #ffffff;
     border-radius: 50px;
     color: #fff;
