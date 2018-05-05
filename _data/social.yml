@@ -1,14 +1,14 @@
 - icon: fab fa-whatsapp
-  link: #
-  color: #25d366;
+  link: "#"
+  color: "#25d366;"
   
 - icon: fab fa-twitter
-  link: #
-  color: #55acee;
+  link: "#"
+  color: "#55acee;"
   
 - icon: fas fa-envelope
-  link: #
-  color: #dd4b39;
+  link: "#"
+  color: "#dd4b39;"
   
 - icon: fab fa-stack-exchange
   link: #
