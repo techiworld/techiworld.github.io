@@ -2,3 +2,9 @@ Title: Chipprogrammers
 Slogan: Electronics for Everyone
 baseurl: "/"
 url: "https://chipprogrammers.github.io"
+
+
+
+
+
+markdown: kramdown
