@@ -1,11 +1,11 @@
 - menu: Home
   link: http://chipprogrammers.github.io
-  icon: home
+  icon: fa fa-home
  
 - menu: Github
   link: http://github.com/chipprogrammers
-  icon: github
+  icon: fab fa-github
   
 - menu: Resume
   link: http://chipprogrammers.github.io/online-cv
-  icon: paper-plane
+  icon: fa fa-paper-plane
