@@ -1,10 +1,10 @@
 - menu: Home
   link: http://chipprogrammers.github.io
-  icon: fa fa-home
+  icon: fas fa-home
  
 - menu: Blog
   link: https://chipprogrammers.github.io/blog
-  icon: fa fa-pencil
+  icon: fas fa-pencil-alt
   
 - menu: Github
   link: http://github.com/chipprogrammers
