@@ -2,7 +2,6 @@
 .container {
     width: 200px;
     height: 120px;
-    float:left;
     margin: 4px 10px 0px 10px;
 }
 
@@ -10,5 +9,6 @@
 .container img {
     width: 100%;
     height: auto;
+    float:left;
 }
 }
