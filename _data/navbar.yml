@@ -2,6 +2,10 @@
   link: http://chipprogrammers.github.io
   icon: fa fa-home
  
+- menu: Blog
+  link: https://chipprogrammers.github.io/blog
+  icon: fa fa-pencil
+  
 - menu: Github
   link: http://github.com/chipprogrammers
   icon: fab fa-github
