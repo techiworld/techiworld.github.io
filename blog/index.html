@@ -1,0 +1,66 @@
+---
+layout: default
+title: My Blog
+---
+
+<div class="w3-row">
+<div class="w3-twothird">
+{% for post in paginator.posts %}
+   <div class="-w3content">
+   <div class="w3-card-4 w3-margin">
+      <div class="w3-display-container w3-hover-opacity">
+       <img src="{{ site.baseurl }}{{ post.img }}" alt="post-img" style="width:100%">
+      <div class="w3-display-middle w3-display-hover w3-text-white">
+      Category: <span class="w3-tag">
+           <a href="{{ site.baseurl }}/category/{{ post.category }}">{{ post.category }}</a>
+      </span>
+      </div>
+      </div>
+       <div class="w3-container">
+           <h3><b>{{ post.title }}</b></h3>
+           <span class="w3-opacity"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}</span>
+           <p>{{ post.content | strip_html | truncatewords: 40 }}</p><br />
+          <a href="{{ post.url | prepend: site.baseurl }}" class="w3-button w3-black">Read More</a>
+       </div>
+   </div>
+ </div>
+{% endfor %}
+</div>
+   <div class="w3-third">
+      <div class="w3-content">
+      {% include about-me.html %}
+     </div>
+  </div>
+</div>
+<!-- Pagination links -->
+<div class="w3-center">
+<div class="w3-bar">
+    {% if paginator.total_pages == 1 %}
+    <a class="w3-button w3-green" href="{{ site.baseurl }}">{{ page }}</a>
+    {% endif %}
+{% if paginator.total_pages > 1 %}
+  {% if paginator.previous_page %}
+    <a class="w3-button" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+   {% else %}
+    <a class="w3-button" href="#">&laquo; Prev</a>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+   {% if page == paginator.page %}
+       <a class="w3-button w3-green" href="{{ site.baseurl }}">{{ page }}</a>
+    {% elsif page == 1 %}
+      <a class="w3-button" href="{{ site.baseurl }}">{{ page }}</a>
+  {% else %}
+      <a class="w3-button" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+   {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}                                                                                                                 
+    <a class="w3-button" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <a class="w3-button" href="#">Next &raquo;</a>
+  {% endif %}
+{% endif %}
+<!-- end of pagination -->
+   </div>
+</div>
