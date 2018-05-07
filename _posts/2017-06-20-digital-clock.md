@@ -4,7 +4,7 @@ title:  "Digital Clock"
 date:   2017-06-20 14:20:39 -0700
 category: Web-Designing
 card_color: success
-img: /static/img/3.jpg
+img: /static/IMG/3.jpg
 tags:
 - HTML
 - JavaScript
