@@ -3,7 +3,7 @@ layout: post
 title: Example content for posts  
 category: others
 card_color: danger
-img: /static/img/4.jpg
+img: /static/IMG/4.jpg
 tags: Jekyll
 ---
 
