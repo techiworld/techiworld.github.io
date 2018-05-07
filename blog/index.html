@@ -33,7 +33,7 @@ title: My Blog
    {% if page == paginator.page %}
        <a class="w3-button w3-deep-orange" href="{{ site.baseurl }}">{{ page }}</a>
     {% elsif page == 1 %}
-      <a class="w3-button" href="{{ site.baseurl }}">{{ page }}</a>
+      <a class="w3-button" href="{{ site.baseurl }}/blog">{{ page }}</a>
   {% else %}
       <a class="w3-button" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
    {% endif %}
