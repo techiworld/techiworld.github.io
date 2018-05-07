@@ -8,10 +8,8 @@ title: My Blog
 <ul class="w3-ul">
 {% for post in paginator.posts %}
 <li>
-   <div class="w3-content">
       <div class="container">
        <img src="{{ site.baseurl }}{{ post.img }}" alt="post-img" class="w3-image">
-      </div>
       </div>
        <div class="w3-container">
            <h3><b>{{ post.title }}</b></h3>
