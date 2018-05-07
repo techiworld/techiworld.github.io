@@ -5,15 +5,12 @@ title: My Blog
 
 <div class="w3-row">
 <div class="w3-twothird">
+<ul class="w3-ul">
 {% for post in paginator.posts %}
-   <div class="-w3content">
-   <div class="w3-card-4 w3-margin">
-      <div class="w3-display-container w3-hover-opacity">
+<li>
+   <div class="w3-content">
+      <div class="container">
        <img src="{{ site.baseurl }}{{ post.img }}" alt="post-img" style="width:100%">
-      <div class="w3-display-middle w3-display-hover w3-text-white">
-      Category: <span class="w3-tag">
-           <a href="{{ site.baseurl }}/category/{{ post.category }}">{{ post.category }}</a>
-      </span>
       </div>
       </div>
        <div class="w3-container">
@@ -22,9 +19,9 @@ title: My Blog
            <p>{{ post.content | strip_html | truncatewords: 40 }}</p><br />
           <a href="{{ post.url | prepend: site.baseurl }}" class="w3-button w3-black">Read More</a>
        </div>
-   </div>
- </div>
+   </li>
 {% endfor %}
+</ul>
 </div>
    <div class="w3-third">
       <div class="w3-content">
