@@ -2,9 +2,9 @@ Title: Chipprogrammers
 Slogan: Electronics for Everyone
 baseurl: "/"
 url: "https://chipprogrammers.github.io"
-
-
-
+Author: Arun K Soman
+Author_img: "/static/IMG/Arun.jpg"
+logo: "/static/IMG/logo.svg"
 paginate: 6
 paginate_path: "/blog/page:num/"
 highlighter: rouge
