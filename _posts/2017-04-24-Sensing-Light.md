@@ -3,7 +3,7 @@ layout: post
 title: Sensing Light
 category: Electronics
 card_color: success
-img: /static/img/4.jpg
+img: /static/IMG/4.jpg
 tags: 
 - Raspberry Pi
 - Python
