@@ -1,15 +1,4 @@
-<!-- Footer -->
-  <footer class="w3-container w3-padding-32 w3-deep-orange">
-    <div class="social w3-center">
-      {% for x in site.data.social %}
-        <a target="_blank" href="{{ x.link }}">
-        <i class="{{ x.icon }} fa-2x" style="color:{{ x.color }}"></i></a>
-      {% endfor %}
-    <div>
-    <div class="w3-center">
-      &copy; {{ site.time | date: "%Y" }} {{ site.Title }}
-    </div>
-</footer>
+
 <style>
 .social [class*="fab fa-"] {
     background-color: #ffffff;
@@ -34,3 +23,16 @@
     text-align: center;
 }
  </style>
+
+<!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-deep-orange">
+    <div class="social w3-center">
+      {% for x in site.data.social %}
+        <a target="_blank" href="{{ x.link }}">
+        <i class="{{ x.icon }} fa-2x" style="color:{{ x.color }}"></i></a>
+      {% endfor %}
+    <div>
+    <div class="w3-center">
+      &copy; {{ site.time | date: "%Y" }} {{ site.Title }}
+    </div>
+</footer>
