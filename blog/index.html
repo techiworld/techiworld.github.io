@@ -18,7 +18,7 @@ title: My Blog
 <div class="w3-center">
 <div class="w3-bar">
     {% if paginator.total_pages == 1 %}
-    <a class="w3-button w3-green" href="{{ site.baseurl }}">{{ page }}</a>
+    <a class="w3-button w3-deep-orange" href="{{ site.baseurl }}">{{ page }}</a>
     {% endif %}
 {% if paginator.total_pages > 1 %}
   {% if paginator.previous_page %}
@@ -29,7 +29,7 @@ title: My Blog
 
   {% for page in (1..paginator.total_pages) %}
    {% if page == paginator.page %}
-       <a class="w3-button w3-green" href="{{ site.baseurl }}">{{ page }}</a>
+       <a class="w3-button w3-deep-orange" href="{{ site.baseurl }}">{{ page }}</a>
     {% elsif page == 1 %}
       <a class="w3-button" href="{{ site.baseurl }}">{{ page }}</a>
   {% else %}
