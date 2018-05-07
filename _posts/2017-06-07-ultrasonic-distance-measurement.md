@@ -3,7 +3,7 @@ layout: post
 title: Ultrasonic Range Measurement
 date:   2017-06-07 13:50:39
 category: Electronics
-img: /static/img/4.jpg
+img: /static/IMG/4.jpg
 card_color: success
 tags: 
 - Raspberry Pi
