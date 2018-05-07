@@ -3,7 +3,7 @@ layout: post
 title:  "Pagination test3"
 date:   2018-01-23 21:50:39
 category: jekyll
-img_url: /static/IMG/4.jpg
+img: /static/IMG/4.jpg
 card_color: danger
 tags: Jekyll
 ---
