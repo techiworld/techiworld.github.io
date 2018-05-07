@@ -5,6 +5,7 @@ url: "https://chipprogrammers.github.io"
 
 
 
-
+paginate: 6
+paginate_path: "/blog/page:num/"
 highlighter: rouge
 markdown: kramdown
