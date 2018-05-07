@@ -3,7 +3,7 @@ layout: post
 title:  "Horizontal scroll box"
 date:   2017-06-17 10:07:39 -0700
 category: Web-Designing
-img: /static/img/3.jpg
+img: /static/IMG/3.jpg
 card_color: success
 tags: 
 - HTML
