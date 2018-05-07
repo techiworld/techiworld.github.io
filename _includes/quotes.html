@@ -1,0 +1,5 @@
+<div class="w3-panel w3-{{ include.container_color }} w3-leftbar w3-border-{{ include.leftbar_color }}">
+ {% if include.style %}<span style="font-size:150px;line-height:0.6em;opacity:0.2">&#10077;</span>{% else %}<i class="fas fa-quote-right w3-xxlarge w3-opacity w3-text-{{ icon_color }}"></i>{% endif %}
+  <p class="w3-xlarge w3-serif"{% if include.style %}style="display:inline-block"{% endif %}><i>{{ include.quote }}</i></p>
+  <p>{{ include.said_by }}</p>
+</div>
