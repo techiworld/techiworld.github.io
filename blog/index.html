@@ -3,26 +3,24 @@ layout: default
 title: My Blog
 ---
 
-<div class="w3-row">
-<div class="w3-twothird">
-<ul class="w3-ul">
-{% for post in paginator.posts %}
-<li>
-      <div class="container">
-       <img src="{{ site.baseurl }}{{ post.img }}" alt="post-img" class="w3-image">
-      </div>
-       <div class="w3-container">
-           <h3><b>{{ post.title }}</b></h3>
-           <span class="w3-opacity"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}</span>
-           <p>{{ post.content | strip_html | truncatewords: 40 }}</p><br />
-          <a href="{{ post.url | prepend: site.baseurl }}" class="w3-button w3-black">Read More</a>
-       </div>
-   </li>
+<div class="w3-row-padding w3-padding-64 w3-container" style="margin-top: 75px">
+  <div class="w3-content">
+    <div class="w3-twothird">
+       <ul>
+       {% for post in paginator.posts %}
+         <li>
+            <div class="container">
+               <img src="{{ site.baseurl }}{{ post.img }}" alt="post-img" class="w3-image">
+            </div>
+             <h3><b>{{ post.title }}</b></h3>
+             <span class="w3-opacity"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}</span>
+             <p>{{ post.content | strip_html | truncatewords: 40 }}</p><br />
+             <a href="{{ post.url | prepend: site.baseurl }}" class="w3-button w3-black">Read More</a>
+        </li>
 {% endfor %}
 </ul>
 </div>
-   <div class="w3-third">
-      <div class="w3-content">
+   <div class="w3-third w3-center">
       {% comment %}{% include about-me.html %}{% endcomment %}
      </div>
   </div>
