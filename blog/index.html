@@ -16,12 +16,7 @@ title: My Blog
              <a href="{{ post.url | prepend: site.baseurl }}" class="w3-button w3-black">Read More</a>
       <hr />
         {% endfor %}
-</div>
-   <div class="w3-third w3-center">
-      {% comment %}{% include about-me.html %}{% endcomment %}
-     </div>
-  </div>
-</div>
+      
 <!-- Pagination links -->
 <div class="w3-center">
 <div class="w3-bar">
@@ -53,4 +48,10 @@ title: My Blog
 {% endif %}
 <!-- end of pagination -->
    </div>
+</div>
+</div>
+   <div class="w3-third w3-center">
+      {% comment %}{% include about-me.html %}{% endcomment %}
+     </div>
+  </div>
 </div>
