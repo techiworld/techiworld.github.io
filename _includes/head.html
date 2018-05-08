@@ -7,3 +7,9 @@
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="{{ site.baseurl }}/fonts/css/fontawesome-all.min.css">
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js"></script>
+{% if page.prism == true %}
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/prism.css">
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/prism.js"></script>
+{% else %}
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/syntax_highlight.css">
+{% endif %}
