@@ -119,18 +119,31 @@
 	border-left:6px solid #2196f3;
 }
 /* Lists */
-ul.a {
-    list-style-type: circle;
+dl,
+ol,
+ul {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
 }
 
-ul.b {
-    list-style-type: square;
+dl dl,
+dl ol,
+dl ul,
+ol dl,
+ol ol,
+ol ul,
+ul dl,
+ul ol,
+ul ul {
+  font-size: 90%;
+  margin: 1.5rem 0 1.5rem 3.0rem;
 }
 
-ol.c {
-    list-style-type: upper-roman;
+ol {
+  list-style: decimal inside;
 }
 
-ol.d {
-    list-style-type: lower-alpha;
+ul {
+  list-style: circle inside;
 }
