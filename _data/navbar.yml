@@ -5,6 +5,10 @@
 - menu: Blog
   link: https://chipprogrammers.github.io/blog
   icon: fas fa-pencil-alt
+
+- menu: Documentation
+  link: https://chipprogrammers.github.io/Documentation
+  icon: fas fa-file
   
 - menu: Github
   link: http://github.com/chipprogrammers
