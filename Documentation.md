@@ -3,7 +3,7 @@ layout: default
 title: Chipprogrammers
 ---
 
-Good is multi purpose Jekyll template made by Chipprogrammer. I am not a web designer. But I put some awesome effort to make this twme possible since I have some enthusiasm in Webdesigning. This Jekyll theme has some awesome include features. But errors and omissions are allowed. Since I mentioned earlier I am not a **web designer**.
+Good is multi purpose Jekyll template made by Chipprogrammer. I am not a web designer. But I put some awesome effort to make this theme possible since I have some enthusiasm in Webdesigning. This Jekyll theme has some awesome include features. But errors and omissions are allowed. Since I mentioned earlier I am not a **web designer**.
 # Includes
 
 ### quotes.html
