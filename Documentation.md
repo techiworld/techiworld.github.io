@@ -9,7 +9,7 @@ This is multi-purpose Jekyll template made by Chipprogrammer. I am not a web des
 
 ### quotes.html
 <pre class="line-numbers">
-<code class="language-MathJax">
+<code class="language-markdown">
 {% raw %}
 {% include quotes.html container_color="pale-blue" leftbar_color="blue" icon_color="blue" quote="Any intelligent fool can make things bigger and more complex… It takes a touch of genius – and a lot of courage to move in the opposite direction." said_by="Albert Einstein" %}
 {% endraw %}
