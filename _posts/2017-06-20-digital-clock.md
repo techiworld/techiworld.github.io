@@ -2,7 +2,7 @@
 layout: post
 title:  "Digital Clock"
 date:   2017-06-20 14:20:39 -0700
-category: Web-Designing
+category: Web_Designing
 card_color: success
 img: /static/IMG/3.jpg
 tags:
