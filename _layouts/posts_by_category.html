@@ -34,8 +34,9 @@ layout: default
              </span>
             <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
       <!-- category -->
-          <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}" class="w3-dark-gray"><img src="{{ site.baseurl }}/assets/svg/price-tag.svg" alt="Tag">{{ post.category }}</a>
-      <br />
+   <span class="w3-tag w3-blue">
+          <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}"><i class="fas fa-folder"></i> {{ post.category }}</a>
+    <span><br />
             <a href="{{ post.url |prepend:site.baseurl }}" class="w3-button w3-black">Read More</a>
             <hr />
 {% endfor %}
