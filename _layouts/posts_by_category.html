@@ -31,7 +31,7 @@ layout: default
                 {% endif %}
             {% endif %}
            <span class="w3-opacity"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}
-             </span>
+             </span><a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}" style="transform:rotate(-5deg)"><i class="fas fa-folder"></i> {{ post.category }}</a>
             <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
       <!-- category -->
    <span class="w3-tag w3-blue" style="transform:rotate(-5deg)">
