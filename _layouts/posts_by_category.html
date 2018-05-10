@@ -8,9 +8,9 @@ layout: default
         {% capture category_slug %}{{ category | first }}{% endcapture %}
         {% for c_slug in category_slug %}
             {% if c_slug == page.categories %}
-                <button class="w3-button w3-red w3-ripple">{{ c_slug }}</button>
+                <button class="w3-button w3-red w3-ripple">{{ c_slug | replace: '_' , ' ' }}</button>
             {% else %}
-                <a href="{{ site.url }}{{site.baseurl}}/category/{{ c_slug }}" class="w3-button w3-red w3-ripple w3-hover-green">{{ c_slug }}</a>
+                <a href="{{ site.url }}{{site.baseurl}}/category/{{ c_slug }}" class="w3-button w3-red w3-ripple w3-hover-green">{{ c_slug | replace: '_',' ' }}</a>
             {% endif %}
         {% endfor %}
     {% endfor %}
@@ -31,7 +31,7 @@ layout: default
                 {% endif %}
             {% endif %}
            <span class="w3-opacity"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}
-             </span><span class="w3-opacity w3-tag w3-gray" style="transform:rotate(-5deg)"><a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}"><i class="fas fa-folder"></i> {{ post.category }}</a></span>
+             </span><span class="w3-opacity w3-tag w3-gray" style="transform:rotate(-5deg)"><a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}"><i class="fas fa-folder"></i> {{ post.category | replace:'_',' ' }}</a></span>
             <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
             <a href="{{ post.url |prepend:site.baseurl }}" class="w3-button w3-black">Read More</a>
             <hr />
