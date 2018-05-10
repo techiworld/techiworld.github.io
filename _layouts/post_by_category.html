@@ -10,7 +10,7 @@ layout: default
             {% if c_slug == page.categories %}
                 <button class="w3-button w3-red w3-ripple">{{ c_slug }}</button>
             {% else %}
-                <a href="{{site.baseurl}}/category/{{ c_slug }}" class="w3-button w3-red w3-ripple w3-hover-green">{{ c_slug }}</a>
+                <a href="{{ site.url }}{{site.baseurl}}/category/{{ c_slug }}" class="w3-button w3-red w3-ripple w3-hover-green">{{ c_slug }}</a>
             {% endif %}
         {% endfor %}
     {% endfor %}
@@ -23,7 +23,7 @@ layout: default
          <img src="{{ site.baseurl }}{{ post.img }}" alt="post-image" style="width:100%">
            <div class="w3-display-middle w3-display-hover w3-text-white">
            Category: <span class="w3-tag">
-          <a href="{{ site.baseurl }}/category/{{ post.category }}">{{ post.category }}</a>
+          <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}">{{ post.category }}</a>
       </span>
   </div>
  </div>
