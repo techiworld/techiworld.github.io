@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Tags
-description: Stochastic stuff blog's tags. List of articles and posts by tags.
+title: Stochastic stuff blog's tags. List of articles and posts by tags.
 ---
 
 <!-- Get the tag name for every tag on the site and set them
