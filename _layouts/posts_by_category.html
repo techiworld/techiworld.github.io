@@ -31,7 +31,7 @@ layout: default
                 {% endif %}
             {% endif %}
            <span class="w3-opacity"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}
-             </span><span class="w3-opacity" style="transform:rotate(-5deg)"><a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}"><i class="fas fa-folder"></i> {{ post.category }}</a></span>
+             </span><span class="w3-opacity w3-tag w3-gray" style="transform:rotate(-5deg)"><a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}"><i class="fas fa-folder"></i> {{ post.category }}</a></span>
             <p>{{ post.content | strip_html | truncatewords: 40 }}</p>
             <a href="{{ post.url |prepend:site.baseurl }}" class="w3-button w3-black">Read More</a>
             <hr />
