@@ -2,5 +2,5 @@
 layout: posts_by_category
 categories: Electronics
 title: Electronics
-permalink: /blog/category/Electronics
+permalink: /category/Electronics
 ---
