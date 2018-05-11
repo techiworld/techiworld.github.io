@@ -30,6 +30,7 @@ laboris nisi ut aliquip ex ea commodo consequat.</p>
 * Anna
 
 ## Video
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+
+<div class="video-responsive video-responsive-4-3">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
 </div>
