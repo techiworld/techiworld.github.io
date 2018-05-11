@@ -17,3 +17,7 @@
 - menu: Resume
   link: http://chipprogrammers.github.io/online-cv
   icon: fa fa-paper-plane
+
+- menu: Sitemap
+  link: https://chipprogrammers.github.io/sitemap.xml
+  icon: fas fa-rss
