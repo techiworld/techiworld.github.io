@@ -16,6 +16,9 @@ Hai... Friends, It is a multipurpose Jekyll theme. But this theme is more suitab
 * Syntax highlighting using Prism and Rouge
 * More color options for theme(Powered with W3.css)
 * Mathjax support
+* Important notes can be highlighted
+* Including youtube video responsively
+* Including modal image responsively
 
 ## Video
 
