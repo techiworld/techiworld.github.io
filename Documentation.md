@@ -22,3 +22,9 @@ This is multi-purpose Jekyll template made by Chipprogrammer. I am not a web des
 {% include MyNote.html note_type="warning" span_note="Warning: " text="The software is provided as is, without wattanty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and infringement." %}
 {% include MyNote.html note_type="info" span_note="Info: " text="The software is provided as is, without wattanty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and infringement." %}
 {% include MyNote.html note_type="danger" span_note="Danger: " text="The software is provided as is, without wattanty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and infringement." %}
+
+## video.html
+
+{% include video.html aspect_ratio="4-3" id="zpOULjyy-n8?rel=0" %}
+### Default aspect ratio
+{% include video.html id="zpOULjyy-n8?rel=0" %}
