@@ -11,13 +11,13 @@
 {% include header.html %}
 {% include parallax.html %}	
 <div class="content-wrapper" style="margin-top:75px">
-<div class="content w3-container">
-<div class="w3-content">   
-<article id="artLink">
-    {{ content }}
-</article>
+<div class="w3-row-padding w3-padding-64 w3-container" style="margin-top: 15px">
+  <div class="content w3-content">
+    <div class="w3-twothird">   
+      <article id="artLink">
+         {{ content }}
+      </article>
 <hr />
-<div class="w3-container">
     <!-- tag cloud -->
 	<i class="fas fa-tags fa-lg" aria-hidden="true"></i><h3 style="display:inline">Posts is tagged on:</h3>
         <ul class="taggs">
@@ -58,8 +58,6 @@
     <a class="w3-button w3-right w3-red" href="{{ site.baseurl }}{{ page.next.url }}">Next &raquo;</a>
   {% endif %}
 </div>
-</div>
-</div> 
 <div class="w3-container">
 <div class="disqus-comments">
    <div id="disqus_thread"></div>
@@ -79,10 +77,15 @@
 
       </div>
     </div>
-   </div>	
+   </div>
+	<div class="w3-third w3-hide-small">
+           {% include about_me.html %}
+        </div>
+ </div>
+</div>
   {% include footer.html %}
 <script src="{{ site.baseurl }}/assets/js/super-search.js"></script>
-
+</div>
 </div>
 </body>
 </html>
