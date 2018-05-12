@@ -20,6 +20,10 @@ Hai... Friends, It is a multipurpose Jekyll theme. But this theme is more suitab
 * Including youtube video responsively
 * Including modal image responsively
 
+## Disadvantages
+* Didn't added markdown table support yet.
+* Didn't added extra grid for large display(1200px).
+
 ## Video
 
 <div class="video-responsive">
