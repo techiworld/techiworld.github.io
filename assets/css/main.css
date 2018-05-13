@@ -319,7 +319,10 @@ video.video-responsive::before {
   color: #667189;
   margin-top: .4rem;
 }
-table{border-collapse:collapse;width:100%}
+table{
+   border-collapse:collapse;width:100%
+   overflow-x:auto;
+}
 td,th{
     border: 1px solid #ddd;
     padding: 8px;
