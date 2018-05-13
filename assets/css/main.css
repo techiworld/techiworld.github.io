@@ -320,8 +320,9 @@ video.video-responsive::before {
   margin-top: .4rem;
 }
 table{
-   border-collapse:collapse;width:100%
-   overflow-x:auto;
+   border-collapse:collapse;width:100%;
+   white-space: nowrap; 
+   overflow-x: scroll;
 }
 td,th{
     border: 1px solid #ddd;
