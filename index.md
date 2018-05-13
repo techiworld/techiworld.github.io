@@ -32,8 +32,8 @@ Hai... Friends, It is a multipurpose Jekyll theme. But this theme is more suitab
 
 ## Table
 
-| Tables        | Are           | Cool  | Not Cool|
-| ------------- |:-------------:| -----:|:--------|
-| col 3 is      | right-aligned | $1600 | $600000 |
-| col 2 is      | centered      |   $12 |    $345 |
-| zebra stripes | are neat      |    $1 |    $200 |
+| Tables        | Are           | Cool  |    as   | Ice Cream |
+|:-------------:|:-------------:|:-----:|:-------:|:----------:
+| col 3 is      | right-aligned | $1600 | $600000 |    Arun.  |
+| col 2 is      | centered      |   $12 |    $345 |     K.    |
+| zebra stripes | are neat      |    $1 |    $200 |    Soman. |
