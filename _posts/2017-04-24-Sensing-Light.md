@@ -2,7 +2,7 @@
 layout: post
 title: Sensing Light
 category: Electronics
-card_color: success
+color: teal
 img: /static/IMG/4.jpg
 tags: 
 - Raspberry Pi
