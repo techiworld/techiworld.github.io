@@ -4,7 +4,7 @@ title:  "Pagination test 2"
 date:   2018-01-23 21:44:39
 category: Jekyll
 img: /static/IMG/4.jpg
-card_color: danger
+color: deep-orange
 tags: Jekyll
 ---
 
