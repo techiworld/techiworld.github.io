@@ -41,6 +41,7 @@ Hai... Friends, It is a multipurpose Jekyll theme. But this theme is more suitab
 
 ## MathJax
 
+\begin{displaymath}
 $$
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -57,3 +58,4 @@ $$
     \end{array} \right)
 \end{align*}
 $$
+\end{displaymath}
