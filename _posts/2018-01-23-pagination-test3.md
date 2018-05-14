@@ -4,7 +4,7 @@ title:  "Pagination test3"
 date:   2018-01-23 21:50:39
 category: Jekyll
 img: /static/IMG/4.jpg
-card_color: danger
+color: deep-orange
 tags: Jekyll
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
