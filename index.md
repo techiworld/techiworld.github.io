@@ -41,6 +41,7 @@ Hai... Friends, It is a multipurpose Jekyll theme. But this theme is more suitab
 
 ## MathJax
 
+---
 \begin{displaymath}
 $$
 \begin{align*}
@@ -59,3 +60,4 @@ $$
 \end{align*}
 $$
 \end{displaymath}
+---
