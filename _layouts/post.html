@@ -51,10 +51,10 @@
 {% endif %}
 <div class="w3-bar w3-round">
   {% if page.previous.url %}
-    <a class="w3-button w3-red" href="{{ site.baseurl }}{{ page.previous.url }}">&laquo; Previous</a>
+    <a class="w3-{{ page.color | default: 'deep-orange' }} w3-button" href="{{ site.baseurl }}{{ page.previous.url }}">&laquo; Previous</a>
   {% endif %}
   {% if page.next.url %}
-    <a class="w3-button w3-right w3-red" href="{{ site.baseurl }}{{ page.next.url }}">Next &raquo;</a>
+    <a class="w3-{{ page.color | default: 'deep-orange' }} w3-button w3-right" href="{{ site.baseurl }}{{ page.next.url }}">Next &raquo;</a>
   {% endif %}
 </div>
 <div class="w3-container">
