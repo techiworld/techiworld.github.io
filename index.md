@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Welcome to Our Blog
+MathJax: true
 ---
 
 Hai... Friends, It is a multipurpose Jekyll theme. But this theme is more suitable for blogging. This theme has following features:
@@ -41,8 +42,6 @@ Hai... Friends, It is a multipurpose Jekyll theme. But this theme is more suitab
 
 ## MathJax
 
----
-\begin{displaymath}
 $$
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -59,5 +58,3 @@ $$
     \end{array} \right)
 \end{align*}
 $$
-\end{displaymath}
----
