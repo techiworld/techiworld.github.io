@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Example content for posts  
-category: purple
-card_color: danger
+category: Others
+color: purple
 img: /static/IMG/4.jpg
 tags: Jekyll
 ---
