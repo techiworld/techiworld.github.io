@@ -22,7 +22,7 @@ Hai... Friends, First of all I would like to say I am **not a webdesigner**. But
 * Including modal image responsively
 
 ## Disadvantages
-* Didn't added markdown table support yet.
+* Search overlay color do not changes with page color
 * Didn't added extra grid for large display(1200px).
 
 ## Video
@@ -31,7 +31,7 @@ Hai... Friends, First of all I would like to say I am **not a webdesigner**. But
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
 </div>
 
-## Table
+## Responsive Table
 
 | Tables        | Are           | Cool  |    as   | Ice Cream |   and    |
 |:-------------:|:-------------:|:-----:|:-------:|:---------:|:--------:|
@@ -40,7 +40,7 @@ Hai... Friends, First of all I would like to say I am **not a webdesigner**. But
 | zebra stripes | are neat      |    $1 |    $200 |    Soman. |  Jestin. |
 {: class="w3-responsive"}
 
-## MathJax
+## Responsive math block using MathJax
 
 <div style="overflow-x:auto">
 $$
