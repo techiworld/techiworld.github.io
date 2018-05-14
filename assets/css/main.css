@@ -329,7 +329,7 @@ td,th{
 }
 tr:nth-child(even){background-color: #f2f2f2;}
 tr:hover {background-color: #ddd;}
-th {
+th{
     padding: 12px 0px 12px 0px;
     background-color: #4CAF50;
     color: #ffffff;
