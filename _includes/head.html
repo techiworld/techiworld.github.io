@@ -13,3 +13,7 @@
 {% else %}
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/syntax_highlight.css">
 {% endif %}
+{% if page.MathJax == true %}
+<script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript">
+</script>
+{% endif %}
