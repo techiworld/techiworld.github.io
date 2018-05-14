@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Welcome to Our Blog
+title: Welcome to Our Jekyll theme
 MathJax: true
 ---
 
-Hai... Friends, It is a multipurpose Jekyll theme. But this theme is more suitable for blogging. This theme has following features:
+Hai... Friends, First of all I would like to say I am *not a webdesigner*. But you don't have to worry about that while Forking this Jekyll theme or template. This is one of the best theme available for Jekyll. I am using this theme for my personal blog. If you are like this theme, you can fork this theme. This theme is fully open source. But you have to ensure that the contents in the blog({% raw %}_post folder{% endraw %} is not publishing along with creating your blog. It is a multipurpose Jekyll theme. But this theme is more suitable for blogging. This theme has following features:
 
 * Post by category
 * Posts are archived by tags
