@@ -5,7 +5,11 @@ title: My Blog
 
 {% for post in paginator.posts %}
    <div class="container">
+      {% if page.img_url == true %}
+      <img src="{{ post.img }}" alt="post-img" class="w3-image">
+      {% else %}
       <img src="{{ site.baseurl }}{{ post.img }}" alt="post-img" class="w3-image">
+      {% endif %}
     </div>
       <h3><b>{{ post.title }}</b></h3>
    <span class="w3-opacity"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}</span><span class="w3-opacity w3-tag w3-gray" style="transform:rotate(-5deg)"><a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.category }}"> <i class="fas fa-folder"></i> {{ post.category | replace:'_',' ' }}</a></span>
