@@ -3,7 +3,7 @@ layout: post
 title: Introduction to Linux
 date: 2018-05-15 21:30:39
 img_url: true
-img:  
+img: https://photos.app.goo.gl/7lLGgr3zhY1YaTCL2
 category: Linux
 color: indigo
 tags: Linux
@@ -13,11 +13,4 @@ A new operating system kernel was introduced by a Finnish student named **Linus 
 
 ## What is Linux?
 Linux is a freely distributed implementation of a **UNIX−like kernel**, the low level
-core of an operating system. Because Linux takes the UNIX system as its inspiration, Linux and UNIX
-
-programs are very similar. In fact, almost all programs written for UNIX can be compiled and run under
-Linux. Also, many commercial applications sold for commercial versions of UNIX can run unchanged in
-binary form on Linux systems. Linux was developed by Linus Torvalds at the University of Helsinki, with the
-help of UNIX programmers from across the Internet. It began as a hobby inspired by Andy Tanenbaum's
-Minix, a small UNIX system, but has grown to become a complete UNIX system in its own right. The Linux
-kernel doesn't use code from AT&T or any other proprietary source.
+core of an operating system. Because Linux takes the UNIX system as its inspiration, Linux and UNIX programs are very similar. In fact, almost all programs written for UNIX can be compiled and run under Linux. Also, many commercial applications sold for commercial versions of UNIX can run unchanged in binary form on Linux systems. Linux was developed by Linus Torvalds at the University of Helsinki, with the help of UNIX programmers from across the Internet. It began as a hobby inspired by Andy Tanenbaum's Minix, a small UNIX system, but has grown to become a complete UNIX system in its own right. The Linux kernel doesn't use code from AT&T or any other proprietary source.
