@@ -1,5 +1,5 @@
-{% if page.img_url == true %}<div class="splash-container w3-display-container" style="background-image:url({{ site.url }}{{ site.baseurl }}{{ page.img }});margin-top:20px">
-{% else %}<div class="splash-container w3-display-container" style="background-image:url({{ page.img }});margin-top:20px">{% endif %}
+{% if page.img_url == true %}<div class="splash-container w3-display-container" style="background-image:url({{ page.img }});margin-top:20px">
+{% else %}<div class="splash-container w3-display-container" style="background-image:url({{ site.url }}{{ site.baseurl }}{{ page.img }});margin-top:20px">{% endif %}
     <div class="splash">
         <h1 class="splash-head">{{ page.title }}</h1>
         <p class="splash-subhead">
