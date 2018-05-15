@@ -336,3 +336,13 @@ th {
     background-color: #4CAF50;
     color: white;
 }
+blockquote {
+  border-left: 0.3rem solid #d1d1d1;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1rem 1.5rem;
+}
+
+blockquote *:last-child {
+  margin-bottom: 0;
+}
