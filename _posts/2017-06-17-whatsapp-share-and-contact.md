@@ -4,7 +4,7 @@ title:  "WhatsApp Share and Contact Button"
 date:   2017-06-17 10:07:39 -0700
 category: Jekyll
 color: deep-orange
-img: /static/IMG/4.jpg
+img: /static/IMG/whatsapp.jpg
 tags: 
 - Jekyll
 - HTML
