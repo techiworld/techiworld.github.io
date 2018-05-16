@@ -4,7 +4,7 @@ title:  "Digital Clock"
 date:   2017-06-20 14:20:39 -0700
 category: Web_Designing
 color: green
-img: /static/IMG/3.jpg
+img: /static/IMG/clock.jpg
 tags:
 - HTML
 - JavaScript
