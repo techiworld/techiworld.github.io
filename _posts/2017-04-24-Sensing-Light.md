@@ -3,7 +3,7 @@ layout: post
 title: Sensing Light
 category: Electronics
 color: teal
-img: /static/IMG/4.jpg
+img: /static/IMG/raspberry_pi.jpg
 tags: 
 - Raspberry Pi
 - Python
