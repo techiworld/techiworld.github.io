@@ -40,7 +40,7 @@ The color of the heading can be changed as you wish as following. As I mentioned
 {% endraw %}
 </code>
 </pre>
-The core idea behind the <span>Raspberry Pi</span>{. w3-text-red } (RPi) project was the development of a 
+The core idea behind the <span>Raspberry Pi</span>{: .w3-text-red } (RPi) project was the development of a 
 small and affordable computing platform that could be used to stimulate the 
 interest of children in core information and communications technology (ICT) 
 education. The rapid evolution of low-cost system on a chip (SoC) devices for 
