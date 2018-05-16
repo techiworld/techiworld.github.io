@@ -38,7 +38,7 @@ The color of the heading can be changed as you wish as following. As I mentioned
 {% endraw %}
 </code>
 </pre>
-#### Level-4 heading {: .w3-text-deep-orange }
+Level-4 heading {: .w3-text-deep-orange }
 
 # Includes
 
