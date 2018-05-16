@@ -8,7 +8,7 @@ This is multi-purpose Jekyll template made by Chipprogrammer. I am not a web des
 # Regular Markdown features
 
 Here we are using Kramdown for markdown. This jekyll theme is also made inorder to made compatible with kramdown.
-### Heading
+## Heading
 following are the levels of headings:
 <pre class="line-numbers">
 <code class="language-markdown">
@@ -30,8 +30,15 @@ following are the levels of headings:
 ##### Level-5 heading
 ###### Level-6 heading
 
-Changing color of heading
-#### Level-4 heading { .class="w3-deep-orange" }
+The color of the heading can be changed as you wish as following. As I mentioned earlier we are using **w3.css** we have lot of color options. We will discuss about those color options later.
+<pre class="line-numbers">
+<code class="language-markdown">
+{% raw %}
+#### Level-4 heading {: .w3-text-deep-orange }
+{% endraw %}
+</code>
+</pre>
+#### Level-4 heading {: .w3-text-deep-orange }
 
 # Includes
 
