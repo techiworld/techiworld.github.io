@@ -30,15 +30,22 @@ following are the levels of headings:
 ##### Level-5 heading
 ###### Level-6 heading
 
+## Changing Colors of text
+
 The color of the heading can be changed as you wish as following. As I mentioned earlier we are using **w3.css** we have lot of color options. We will discuss about those color options later.
 <pre class="line-numbers">
 <code class="language-markdown">
 {% raw %}
-#### Level-4 heading {: .w3-text-deep-orange }
+<span> your text goes here</span>{: .w3-text-deep-orange }
 {% endraw %}
 </code>
 </pre>
-<p>Level-4 heading </p>{: .w3-text-deep-orange }
+The core idea behind the <span>Raspberry Pi</span>{. w3-text-red } (RPi) project was the development of a 
+small and affordable computing platform that could be used to stimulate the 
+interest of children in core information and communications technology (ICT) 
+education. The rapid evolution of low-cost system on a chip (SoC) devices for 
+mobile applications made it possible to widely deliver the affordable RPi plat-
+form in early 2012.
 
 # Includes
 
