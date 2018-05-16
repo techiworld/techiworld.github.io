@@ -5,6 +5,34 @@ prism: true
 ---
 
 This is multi-purpose Jekyll template made by Chipprogrammer. I am not a web designer. But I put some awesome effort to make this theme possible since I have some enthusiasm in Webdesigning. This Jekyll theme has some awesome include features. But errors and omissions are allowed. Since I mentioned earlier I am not a **web designer**.
+# Regular Markdown features
+
+Here we are using Kramdown for markdown. This jekyll theme is also made inorder to made compatible with kramdown.
+### Heading
+following are the levels of headings:
+<pre class="line-numbers">
+<code class="language-markdown">
+{% raw %}
+# Level-1 headings
+## Level-2 heading
+### Level-3 heading
+#### Level-4 heading
+##### Level-5 heading
+###### Level-6 heading
+{% endraw %}
+</code>
+</pre>
+
+# Level-1 headings
+## Level-2 heading
+### Level-3 heading
+#### Level-4 heading
+##### Level-5 heading
+###### Level-6 heading
+
+Changing color of heading
+#### Level-4 heading { .class="w3-deep-orange" }
+
 # Includes
 
 ### quotes.html
