@@ -32,11 +32,11 @@ following are the levels of headings:
 
 ## Changing Colors of text
 
-The color of the heading can be changed as you wish as following. As I mentioned earlier we are using **w3.css** we have lot of color options. We will discuss about those color options later.
+The color of the heading can be changed as you wish as following. As I mentioned earlier we are using **w3.css** we have lot of color options. We will discuss about those color options later. The output of an example is followed by coe is also shown below
 <pre class="line-numbers">
 <code class="language-markdown">
 {% raw %}
-<span> your text goes here</span>{: .w3-text-deep-orange }
+<span> your text goes here</span>{: .w3-text-color }
 {% endraw %}
 </code>
 </pre>
