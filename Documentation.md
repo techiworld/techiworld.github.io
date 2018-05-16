@@ -5,10 +5,10 @@ prism: true
 ---
 
 This is multi-purpose Jekyll template made by Chipprogrammer. I am not a web designer. But I put some awesome effort to make this theme possible since I have some enthusiasm in Webdesigning. This Jekyll theme has some awesome include features. But errors and omissions are allowed. Since I mentioned earlier I am not a **web designer**.
-# Regular Markdown features
+# 1. Regular Markdown features
 
 Here we are using Kramdown for markdown. This jekyll theme is also made inorder to made compatible with kramdown.
-## Heading
+## 1.1 Heading
 following are the levels of headings:
 <pre class="line-numbers">
 <code class="language-markdown">
@@ -30,7 +30,7 @@ following are the levels of headings:
 ##### Level-5 heading
 ###### Level-6 heading
 
-## Changing Colors of text
+## 1.2 Changing Colors of text
 
 The color of the heading can be changed as you wish as following. As I mentioned earlier we are using **w3.css** we have lot of color options. We will discuss about those color options later. The output of an example is followed by coe is also shown below
 <pre class="line-numbers">
@@ -47,9 +47,9 @@ education. The rapid evolution of low-cost system on a chip (SoC) devices for
 mobile applications made it possible to widely deliver the affordable RPi plat-
 form in early 2012.
 
-# Includes
+# 2. Includes
 
-### quotes.html
+### 2.1 quotes.html
 <pre class="line-numbers">
 <code class="language-markdown">
 {% raw %}
@@ -59,7 +59,7 @@ form in early 2012.
 </pre>
 {% include quotes.html container_color="pale-blue" leftbar_color="blue" icon_color="blue" quote="Any intelligent fool can make things bigger and more complex… It takes a touch of genius – and a lot of courage to move in the opposite direction." said_by="Albert Einstein" %}
 
-### MyNote.html
+### 2.2 MyNote.html
 
 This theme is comes with four kinds of notes. These are **success, info, warning and danger.** This feature will make your blog interactive and different. You can add the nates by using following code:
 <pre class="line-numbers">
@@ -74,7 +74,7 @@ This theme is comes with four kinds of notes. These are **success, info, warning
 {% include MyNote.html note_type="info" span_note="Info: " text="The software is provided as is, without wattanty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and infringement." %}
 {% include MyNote.html note_type="danger" span_note="Danger: " text="The software is provided as is, without wattanty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and infringement." %}
 
-## video.html
+## 2.3 video.html
 
 {% include video.html aspect_ratio="4-3" id="zpOULjyy-n8?rel=0" %}
 ### Default aspect ratio
