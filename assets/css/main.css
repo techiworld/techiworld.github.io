@@ -146,7 +146,7 @@ ol {
 }
 
 ul {
-  list-style: circle outside;
+  list-style: circle inside;
 }
 /* HyperLinks */
 #myLink a[target="_blank"]:after {
