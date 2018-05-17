@@ -1,16 +1,16 @@
 body{font-size:1em;font-family:'Merriweather',serif;line-height:1.375}@media only screen{body{font-size:1em;line-height:1.25}}
- h1{font-size:2em;line-height:1.25}@media only screen{h1{font-size:2em;line-height:1.25}}@media only screen and (max-width:40em){h1{font-size:2em;line-height:1.25}}
- @media only screen and (min-width:40.063em){h1{font-size:2.5em;line-height:1.125}}@media only screen and (min-width:40.063em) and (max-width:64em){h1{font-size:3em;line-height:1.05}}
- @media only screen and (min-width:64.063em){h1{font-size:3em;line-height:1.05}}@media only screen and (min-width:64.063em) and (max-width:90em){h1{font-size:3em;line-height:1.05}}
-  h2{font-size:1.625em;line-height:1.15384615}@media only screen{h2{font-size:1.625em;line-height:1.15384615}}@media only screen and (max-width:40em){h2{font-size:2em;line-height:1.25}}
-  @media only screen and (min-width:40.063em){h2{font-size:2.25em;line-height:1.25}}@media only screen and (min-width:40.063em) and (max-width:64em){h2{font-size:2.25em;line-height:1.25}}
-  @media only screen and (min-width:64.063em){h2{font-size:2.25em;line-height:1.25}}@media only screen and (min-width:64.063em) and (max-width:90em){h2{font-size:2.25em;line-height:1.25}}
-  h3{font-size:1.375em;line-height:1.13636364}@media only screen{h3{font-size:1.375em;line-height:1.13636364}}@media only screen and (max-width:40em){h3{font-size:1.5em;line-height:1.25}}
-  @media only screen and (min-width:40.063em){h3{font-size:1.75em;line-height:1.25}}@media only screen and (min-width:40.063em) and (max-width:64em){h3{font-size:1.75em;line-height:1.25}}
-  @media only screen and (min-width:64.063em){h3{font-size:1.5em;line-height:1.25}}@media only screen and (min-width:64.063em) and (max-width:90em){h3{font-size:1.5em;line-height:1.25}}
-  h4{font-size:1.125em;line-height:1.1111111}@media only screen{h4{font-size:1.125em;line-height:1.1111111}}@media only screen and (max-width:40em){h4{font-size:1.125em;line-height:1.222222}}
-  @media only screen and (min-width:40.063em){h4{font-size:1.125em;line-height:1.25}}@media only screen and (min-width:40.063em) and (max-width:64em){h4{font-size:1.125em;line-height:1.25}}
-  @media only screen and (min-width:64.063em){h4{font-size:1.125em;line-height:1.25}}@media only screen and (min-width:64.063em) and (max-width:90em){h4{font-size:1.125em;line-height:1.25}}
-  blockquote{font-size:1.25em;line-height:1.25}@media only screen{blockquote{font-size:1.25em;line-height:1.25}}@media only screen and (max-width:40em){blockquote{font-size:1.25em;line-height:1.25}}
-  @media only screen and (min-width:40.063em){blockquote{font-size:1.5em;line-height:1.4583333}}@media only screen and (min-width:40.063em) and (max-width:64em){blockquote{font-size:1.5em;line-height:1.4583333}}
-  @media only screen and (min-width:64.063em){blockquote{font-size:1.5em;line-height:1.4583333}}@media only screen and (min-width:64.063em) and (max-width:90em){blockquote{font-size:1.5em;line-height:1.4583333}}
+ h1{font-size:2em;line-height:1.25}@media only screen{h1{font-size:2em;line-height:1.25em}}@media only screen and (max-width:40em){h1{font-size:2em;line-height:1.25em}}
+ @media only screen and (min-width:40.063em){h1{font-size:2.5em;line-height:1.125em}}@media only screen and (min-width:40.063em) and (max-width:64em){h1{font-size:3em;line-height:1.05em}}
+ @media only screen and (min-width:64.063em){h1{font-size:3em;line-height:1.05em}}@media only screen and (min-width:64.063em) and (max-width:90em){h1{font-size:3em;line-height:1.05em}}
+  h2{font-size:1.625em;line-height:1.15384615em}@media only screen{h2{font-size:1.625em;line-height:1.15384615em}}@media only screen and (max-width:40em){h2{font-size:2em;line-height:1.25}}
+  @media only screen and (min-width:40.063em){h2{font-size:2.25em;line-height:1.25em}}@media only screen and (min-width:40.063em) and (max-width:64em){h2{font-size:2.25em;line-height:1.25em}}
+  @media only screen and (min-width:64.063em){h2{font-size:2.25em;line-height:1.25em}}@media only screen and (min-width:64.063em) and (max-width:90em){h2{font-size:2.25em;line-height:1.25em}}
+  h3{font-size:1.375em;line-height:1.13636364em}@media only screen{h3{font-size:1.375em;line-height:1.13636364}}@media only screen and (max-width:40em){h3{font-size:1.5em;line-height:1.25em}}
+  @media only screen and (min-width:40.063em){h3{font-size:1.75em;line-height:1.25em}}@media only screen and (min-width:40.063em) and (max-width:64em){h3{font-size:1.75em;line-height:1.25em}}
+  @media only screen and (min-width:64.063em){h3{font-size:1.5em;line-height:1.25em}}@media only screen and (min-width:64.063em) and (max-width:90em){h3{font-size:1.5em;line-height:1.25em}}
+  h4{font-size:1.125em;line-height:1.1111111em}@media only screen{h4{font-size:1.125em;line-height:1.1111111}}@media only screen and (max-width:40em){h4{font-size:1.125em;line-height:1.222222em}}
+  @media only screen and (min-width:40.063em){h4{font-size:1.125em;line-height:1.25em}}@media only screen and (min-width:40.063em) and (max-width:64em){h4{font-size:1.125em;line-height:1.25em}}
+  @media only screen and (min-width:64.063em){h4{font-size:1.125em;line-height:1.25em}}@media only screen and (min-width:64.063em) and (max-width:90em){h4{font-size:1.125em;line-height:1.25em}}
+  blockquote{font-size:1.25em;line-height:1.25}@media only screen{blockquote{font-size:1.25em;line-height:1.25em}}@media only screen and (max-width:40em){blockquote{font-size:1.25em;line-height:1.25em}}
+  @media only screen and (min-width:40.063em){blockquote{font-size:1.5em;line-height:1.4583333em}}@media only screen and (min-width:40.063em) and (max-width:64em){blockquote{font-size:1.5em;line-height:1.4583333em}}
+  @media only screen and (min-width:64.063em){blockquote{font-size:1.5em;line-height:1.4583333em}}@media only screen and (min-width:64.063em) and (max-width:90em){blockquote{font-size:1.5em;line-height:1.4583333em}}
