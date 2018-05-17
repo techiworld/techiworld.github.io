@@ -2,7 +2,7 @@ body,h1,h2,h3,h4,h5{
 font-family: 'Merriweather', serif;
 }
 body{
-font-size: 18px;
+font-size: 20px;
 } 
 p{
 display: block;
@@ -154,8 +154,7 @@ ol {
 }
 
 ul {
-  list-style: circle inside;
-  padding-left: 25px;
+  list-style: disc inside;
 }
 /* HyperLinks */
 #myLink a[target="_blank"]:after {
