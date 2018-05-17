@@ -1,4 +1,4 @@
-body,h1,h2,h3,h4,h5 {font-family: 'Merriweather', serif;}
+body,h1,h2,h3,h4,h5 {font-family: 'Merriweather', serif;line-height: 1.7em;}
 @media only screen and (min-width : 768px) {
 .container {
     width: 220px;
