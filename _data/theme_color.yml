@@ -1,29 +1,83 @@
-- color: deep-orange
- themecolor: "#ff5722"
-deep-purple: 
-pink: #e91e63
-indigo: #3f51b5
-blue: #ddffff
-pale-red: #ffe7e7
-pale-green: #e7ffe7
-pale-yellow: #ffffcc
-pale-blue: #ddffff
-cyan: #00bcd4
-amber: #ffc107
-khaki: #f0e68c
-purple: 
-teal: 
-green: 
-lime: 
-sand:
-yellow: 
-orange: 
-gray: 
-pale-gray: 
-lime: 
-blue-gray: 
-brown: 
-dark-gray: 
-light-blue: 
-light-green: 
-aqua: 
+- colour: deep-orange
+  theme-color: "#ff5722"
+  
+- colour: deep-purple
+  theme-clor: "#673ab7"
+ 
+- colour: pink
+  theme-color: "#e91e63"
+  
+- colour: indigo
+  theme-color: "#3f51b5"
+ 
+- colour: blue
+  theme-color: "#ddffff"
+  
+- colour: pale-red
+  theme-color: "#ffe7e7"
+  
+- colour: pale-green
+  theme-color: "#e7ffe7"
+
+- colour: pale-yellow
+  theme-color: "#ffffcc"
+  
+- colour: pale-blue
+  theme-color: "#ddffff"
+  
+- colour: cyan
+  theme-color: "#00bcd4"
+  
+- colour: amber
+  theme-color: "#ffc107"
+  
+- colour: khaki
+  theme-color: "#f0e68c"
+  
+- colour: purple
+  theme-color: "#9c27b0"
+  
+- colour: teal
+  theme-color: "#009688"
+
+- colour: green
+  theme-color: "#ddffdd"
+
+- colour: lime
+  theme-color: "#cddc39"
+
+- colour: sand
+  theme-color: "#fdf5e6"
+
+- colour: yellow
+  theme-color: "#d2be0e"
+
+- colour: orange
+  theme-color: "#ff9800"
+
+- colour: gray
+  theme-color: "#9e9e9e"
+
+- colour: lime
+  theme-color: "#cddc39"
+
+- colour: blue-gray
+  theme-color: "#607d8b"
+
+- colour: brown
+  theme-color: "#795548"
+
+- colour: dark-gray
+  theme-color: "#616161"
+
+- colour: light-blue
+  theme-color: "#87CEEB"
+
+- colour: light-green
+  theme-color: "#8bc34a"
+  
+- colour: aqua
+  theme-color: "#00ffff"
+
+- colour: light-gray
+  theme-color: "#f1f1f1"
