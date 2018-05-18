@@ -5,6 +5,7 @@ date:   2018-01-23 21:44:39
 category: Jekyll
 img: /static/IMG/4.jpg
 color: deep-orange
+theme_color: "#ff5722"
 tags: Jekyll
 ---
 
