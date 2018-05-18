@@ -1,13 +1,7 @@
 <title>{{ site.Title }}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{% for x in site.data.theme_color %}
-{% if x.colour == page.color %}
-<meta name="theme-color" content="{{ x.theme-color }}">
-{% else %}
-<meta name="theme-color" content="#ff5722">
-{% endif %}
-{% endfor %}
+<meta name="theme-color" content="{{ page.theme_color | default: '#ff5722' }}">
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/w3.css">
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css">
 <!-- <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/typography.css"> -->
