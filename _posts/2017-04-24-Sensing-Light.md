@@ -17,7 +17,7 @@ tags:
 * Full size Breadboard: ₹ 80
 * Jumper wires: Female to female, male to female
 <P>This work is only costs less than ₹100 if you are an electronic hobbyist. Since an electronic hobbyist have atleast the components like LDR, breadboard, jumper wires etc. on his hand.</p>
-For more information about the circuit and working of these programs visit our blog. Click [here](https://chipprogrammer.blogspot.in/2017/04/sensing-light.html?m=1) to our visit our blog.
+For more information about the circuit and working of these programs visit our blog. Click [here](https://chipprogrammer.blogspot.in/2017/04/sensing-light.html?m=1){: target="_blank" } to our visit our blog.
 # LDR(Lght Dependent Resistor)
 
 <div>
@@ -56,7 +56,7 @@ In the world of electronics or electrical engineering there is only two outputs:
 The capacitor is just like your pocket and it wiill fill rapidly, if your time is good and it will become empty, if your fate and time is bad. It will charge faster if the variable resistance of LDR is lower due to the RC time constant is low. Also it will charge like a snail when the RC time constant is high at dark due to resistance of LDR become high. The time constant is given by:
 て=RC
 
-For LDR, resistance at dark is approximately 1㏁ and hence for this resistance and 330nF capacitance て= 330 msec. For LDR, resistance at light is 10㏀ and hence て=33msec. You can calculate this resistance using online time constant calculator provided by [digikey](https://www.digikey.co.uk/en/resources/conversion-calculators/conversion-calculator-time-constant)
+For LDR, resistance at dark is approximately 1㏁ and hence for this resistance and 330nF capacitance て= 330 msec. For LDR, resistance at light is 10㏀ and hence て=33msec. You can calculate this resistance using online time constant calculator provided by [digikey](https://www.digikey.co.uk/en/resources/conversion-calculators/conversion-calculator-time-constant){: target="_blank" }
 
 The time module of the Python makes the program trickier and will help us to measure this time constants.
 
@@ -166,7 +166,7 @@ while True:
     elif ldr.value==0.0:
         GPIO.output(17,True)
 ```
-Click [here]( https://github.com/chipprogrammers/ldr) to visit our github repository for clone or download these codes. Alternatively you can also clone the code directly using following commands:
+Click [here]( https://github.com/chipprogrammers/ldr){: target="_blank" } to visit our github repository for clone or download these codes. Alternatively you can also clone the code directly using following commands:
 ```bash
 $cd ~
 $git clone git://github.com/chipprogrammers/ldr.git
