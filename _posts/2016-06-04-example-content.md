@@ -61,16 +61,16 @@ Or, if you prefer, <strong>use two underscores instead</strong>.</p>
 <li>Booze.</li>
 <li>Red</li>
 <li>Green</li>
-<li><p>Blue</p></li>
-<li><p>A list item.</p></li>
+<li>Blue</li>
+<li>A list item.</li>
 </ul>
 
 
 <p>With multiple paragraphs.</p>
 
 <ul>
-<li><p>Another item in the list.</p></li>
-<li><p>This is a list item with two paragraphs. Lorem ipsum dolor
+<li>Another item in the list.</li>
+<li>This is a list item with two paragraphs. Lorem ipsum dolor
 sit amet, consectetuer adipiscing elit. Aliquam hendrerit
 mi posuere lectus.</p></li>
 </ul>
@@ -90,12 +90,12 @@ only required to indent the first line. Lorem ipsum dolor
 sit amet, consectetuer adipiscing elit.</p>
 
 <ul>
-<li><p>Another item in the same list.</p></li>
-<li><p>A list item with a bit of <code>code</code> inline.</p></li>
-<li><p>A list item with a blockquote:</p>
+<li>Another item in the same list.</li>
+<li>A list item with a bit of <code>code</code> inline.</li>
+<li>A list item with a blockquote:
 
-<blockquote><p>This is a blockquote
-inside a list item.</p></blockquote></li>
+<blockquote>This is a blockquote
+inside a list item.</blockquote></li>
 </ul>
 
 
