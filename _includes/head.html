@@ -1,9 +1,9 @@
 <title>{{ site.Title }}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{% for n in site.data.theme_color %}
-{% if {{ n.colour }} == page.color %}
-<meta name="theme-color" content="{{ n.theme-color }}">
+{% for x in site.data.theme_color %}
+{% if x.colour == page.color %}
+<meta name="theme-color" content="{{ x.theme-color }}">
 {% else %}
 <meta name="theme-color" content="#ff5722">
 {% endif %}
