@@ -6,6 +6,7 @@ img_url: true
 img: http://res.cloudinary.com/chipprogrammer/image/upload/c_limit,q_auto:low,w_668/v1526404917/blog/image_w8zcid.png
 category: Linux
 color: pink
+theme_color: "#4CAF50"
 tags: Linux
 ---
 
