@@ -3,6 +3,7 @@ layout: post
 title: Example content for posts  
 category: Others
 color: purple
+theme_color: "#9c27b0"
 img: /static/IMG/4.jpg
 tags: Jekyll
 ---
