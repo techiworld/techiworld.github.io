@@ -157,6 +157,40 @@ ul {
   list-style: disc inside;
 }
 /* HyperLinks */
+#artLink a[target="_blank"]:after {
+  content: "\f35d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin: 0 0 0 5px;
+}
+#artLink a:link{
+    color: blue; 
+    background-color: transparent; 
+    text-decoration: none;
+    border-bottom: 2px solid #08f3f7;
+}
+
+#artLink a:visited {
+    color: hotpink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#artLink a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#artLink a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+#artLink img{
+   text-decoration: none;
+}
+
 #myLink a[target="_blank"]:after {
   content: "\f35d";
   font-family: "Font Awesome 5 Free";
