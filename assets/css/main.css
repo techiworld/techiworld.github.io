@@ -229,7 +229,7 @@ ul {
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
     width: 100%;
-    height: 50%;
+    height: 70%;
     top: 0;
     left: 0;
     position: fixed !important;
@@ -240,7 +240,7 @@ ul {
 .splash {
     /* absolute center .splash within .splash-container */
     width: 80%;
-    height: 50%;
+    height: 70%;
     margin: auto;
     position: absolute;
     top: 100px; left: 0; bottom: 0; right: 0;
@@ -268,7 +268,7 @@ ul {
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
-    top: 52%;
+    top: 72%;
     width: 100%;
     min-height: 12%;
     z-index: 2;
