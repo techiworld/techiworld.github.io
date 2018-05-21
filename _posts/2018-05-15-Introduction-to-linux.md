@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Introduction to Linux
 date: 2018-05-15 21:30:39
 img_url: true
@@ -33,6 +33,7 @@ systems has been a problem, although POSIX was a great help in this respect. Wit
 X/Open specification, there's hope that UNIX and the many other UNIX−like systems will converge.
 
 ### Unix: Milestones
+
 |  Year  |           Event happen                                          |
 |:------:|:---------------------------------------------------------------:|
 |  1957  | Unix operating system project began at Bell laborataries.       |
