@@ -1,3 +1,9 @@
+---
+layout: post
+title: Introduction to Vedic Mathematics
+color: deep-purple
+---
+
 The “Vedic Mathematics” is called so because of its origin from Vedas. To be more specific, it has originated from “Atharva Vedas” the fourth Veda. “Atharva Veda” deals with the branches like Engineering, Mathematics, sculpture, Medicine, and all other sciences with which we are today aware of.
 
 The Sanskrit word Veda is derived from the root Vid, meaning to know without limit. The word Veda covers all Veda-Sakhas known to humanity. The Veda is a repository of all knowledge, fathomless, ever revealing as it is delved deeper.
