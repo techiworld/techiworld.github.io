@@ -37,7 +37,7 @@ X/Open specification, there's hope that UNIX and the many other UNIX−like syst
 |:------:|:---------------------------------------------------------------:|
 |  1957  | Unix operating system project began at Bell laborataries.       |
 |  1957  | Bell laborataries created BESYS operating system to sequence their jobs.|
-|  1964  | Researchers from General Electric, MIT, and Bell Labs created a new general-purpose, multi-user, time-sharing operating system called Multiplexed Information and Computing System **(Multics)**.
+|  1964  | Researchers from General Electric, MIT, and Bell Labs created a new general-purpose, multi-user, time-sharing operating system called Multiplexed Information and Computing System(Multics).
 |  1969  | Multics project was withdrawn because of the high cost of development |
 |  1969  |  Ken Thompson, Dennis  Ritchie, Douglas Ritchie, and Douglas Mcllroy, along with a few others, began working on Uniplexed Information and Computing System (UNICS) by using an old PDP-7 computer |
 |  1969  | The name Unics was then shortened to Unix. |
@@ -47,6 +47,7 @@ X/Open specification, there's hope that UNIX and the many other UNIX−like syst
 |  1973  | Third edition of Unix appeared along with the Unix C compiler (cc). |
 |  1973  | Fourth edition of Unix was released. The kernel was rewritten in the C compiler. |
 |  1974  | Fifth edition of Unix was released. The source code was made freely available to universities for educational purposes. Unix also spread outside AT&T and Bell Labs and was provided to academic institutions at a very small charge. |
+{: class="w3-responsive"}
 
 ## What is Linux?
 Linux is a freely distributed implementation of a **UNIX−like kernel**, the low level
