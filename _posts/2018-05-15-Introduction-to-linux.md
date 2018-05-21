@@ -53,8 +53,7 @@ X/Open specification, there's hope that UNIX and the many other UNIX−like syst
 |  1975  | Sixth edition of Unix was released(V6 Unix) |
 |  1975  | 1BSD, the fi rst edition, was released |
 |  1978  | 2BSD, the second edition, was released |
-|  1979  | Seventh edition of Unix was released. This edition was released along 
-with Steve Bourne’s shell (sh). |
+|  1979  | Seventh edition of Unix was released. This edition was released along with Steve Bourne’s shell (sh). |
 {: class="w3-responsive"}
 
 ## What is Linux?
