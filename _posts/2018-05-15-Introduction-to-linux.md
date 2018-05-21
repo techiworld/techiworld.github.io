@@ -35,7 +35,7 @@ X/Open specification, there's hope that UNIX and the many other UNIX−like syst
 ### Unix: Milestones
 
 |  Year  |           Event happen                                          |
-|:------:|:---------------------------------------------------------------:|
+|:------:|-----------------------------------------------------------------|
 |  1957  | Unix operating system project began at Bell laborataries.       |
 |  1957  | Bell laborataries created BESYS operating system to sequence their jobs.|
 |  1964  | Researchers from General Electric, MIT, and Bell Labs created a new general-purpose, multi-user, time-sharing operating system called Multiplexed Information and Computing System(Multics).
@@ -48,6 +48,13 @@ X/Open specification, there's hope that UNIX and the many other UNIX−like syst
 |  1973  | Third edition of Unix appeared along with the Unix C compiler (cc). |
 |  1973  | Fourth edition of Unix was released. The kernel was rewritten in the C compiler. |
 |  1974  | Fifth edition of Unix was released. The source code was made freely available to universities for educational purposes. Unix also spread outside AT&T and Bell Labs and was provided to academic institutions at a very small charge. |
+|  1974  | Thompson taught Unix for a year at the University of California, Berkeley. |
+|  1974  | When Thompson returned to Bell Labs, students and professors at Berkeley continued to enhance Unix. This led to the formation of the Berkeley Software Distribution, BSD. |
+|  1975  | Sixth edition of Unix was released(V6 Unix) |
+|  1975  | 1BSD, the fi rst edition, was released |
+|  1978  | 2BSD, the second edition, was released |
+|  1979  | Seventh edition of Unix was released. This edition was released along 
+with Steve Bourne’s shell (sh). |
 {: class="w3-responsive"}
 
 ## What is Linux?
