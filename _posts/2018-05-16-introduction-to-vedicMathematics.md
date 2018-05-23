@@ -3,7 +3,7 @@ layout: post
 title: Introduction to Vedic Mathematics
 date:   2018-05-16 10:07:39 -0700
 category: Vedic_Mathematics
-img: /static/IMG/maths1.jpg
+img: /static/IMG/maths1.jpeg
 color: deep-purple
 theme-clor: "#673ab7"
 tags: 
