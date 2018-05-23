@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Preview &#x003A; Vedic Mathematics
+title: Preview&#x003A; Vedic Mathematics
 date:   2018-05-23 10:07:39 -0700
 category: Vedic_Mathematics
-img: /static/IMG/maths1.jpg
+img: /static/IMG/maths2.jpeg
 color: deep-purple
 theme-clor: "#673ab7"
 tags: 
