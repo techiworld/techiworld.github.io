@@ -34,5 +34,5 @@ Following posts makes use of the Sutras and Sub-Sutras stated above for presenta
   -21 can shown as \(\overline 21\)
   </blockquote>
 * **Beejank:** The Sum of the digits of a number is called Beejank. If the addition is a two digit number, then these two digits are also to be added up to get a single digit.
-e.g: Beejank of 27 is 2 + 7 = 9.
-Beejank of 348 is 3 + 4 + 8 = 15, further 1 + 5 = 6. i.e. 6 is Beejank.
+<blckquote>e.g: Beejank of 27 is 2 + 7 = 9.
+Beejank of 348 is 3 + 4 + 8 = 15, further 1 + 5 = 6. i.e. 6 is Beejank.</blockquote>
