@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preview: Vedic Mathematics
+title: Preview&#003A; Vedic Mathematics
 date:   2018-05-23 10:07:39 -0700
 category: Vedic_Mathematics
 img: /static/IMG/maths1.jpg
