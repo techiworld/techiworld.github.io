@@ -5,6 +5,7 @@ baseurl: "/"
 url: "https://chipprogrammers.github.io"
 Author: Arun K Soman
 Author_img: "/static/IMG/Arun.jpg"
+disqus_shortname: https-chipprogrammers-github-io-pimate
 
 enableTags: true
 tagarray: []
