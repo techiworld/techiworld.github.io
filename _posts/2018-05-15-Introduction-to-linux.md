@@ -66,7 +66,7 @@ X/Open specification, there's hope that UNIX and the many other UNIX−like syst
 |  1989  | 10<sup>th</sup> version of Unix was developed. |
 {: class="w3-responsive"}
 
-{% include MyNote.html note_type="info" span_note="Why C language is named so?" text="It was named "C" because its features were derived from an earlier language called "B", which according to Ken Thompson was a stripped-down version of the BCPL programming language'. C came out of Ken Thompson's Unix project at AT&T. He originally wrote Unix in assembly language." %}
+{% include MyNote.html note_type="info" span_note="Why C language is named so?" text="It was named &#8220;C&#8220; because its features were derived from an earlier language called &#8220;B &#8220;, which according to Ken Thompson was a stripped-down version of the BCPL programming language which was using B compiler. C came out of Dennis Ritchie's Unix project at AT&T." %}
 
 ## What is Linux?
 Linux is a freely distributed implementation of a **UNIX−like kernel**, the low level
