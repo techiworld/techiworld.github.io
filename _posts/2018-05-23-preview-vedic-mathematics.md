@@ -28,10 +28,10 @@ Following posts makes use of the Sutras and Sub-Sutras stated above for presenta
 * **Ekanyuna** means ‘one less’. So Ekanyuna of 1 is zero. Like this Ekanyuna of 3 is 2.
 * **Purak** means ‘complement’(in exact words 10's complement). So Paurank of 9 is (10-9)=1, Paurank of 7 is (10-7)=3 and 5 is 5.
 *  **Rekhank** means ‘a digit with a bar on its top’. In other words it is a negative number.
-<blockquote> eg: A bar on \(\overline 7)\ is written as 7. It is called Rekhank 7 or bar 7. We treat Purak as a Rekhank. For example, \(\overline 7)\ is 3 and \(\overline 3)\ is 7.
+<blockquote> eg: A bar on \(\overline 7\) is written as 7. It is called Rekhank 7 or bar 7. We treat Purak as a Rekhank. For example, \(\overline 7\) is 3 and \(\overline 3\) is 7.
   At some instances we write negative numbers also with a bar on the top of the numbers as:
-  -4 can be shown as \(\overline 4)\
-  -21 can shown as \(\overline 21)\
+  -4 can be shown as \(\overline 4\)
+  -21 can shown as \(\overline 21\)
   </blockquote>
 * **Beejank:** The Sum of the digits of a number is called Beejank. If the addition is a two digit number, then these two digits are also to be added up to get a single digit.
 e.g: Beejank of 27 is 2 + 7 = 9.
