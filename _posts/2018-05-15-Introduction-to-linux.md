@@ -54,6 +54,16 @@ X/Open specification, there's hope that UNIX and the many other UNIX−like syst
 |  1975  | 1BSD, the fi rst edition, was released |
 |  1978  | 2BSD, the second edition, was released |
 |  1979  | Seventh edition of Unix was released. This edition was released along with Steve Bourne’s shell (sh). |
+|  1979  | The development of Unix split into two main branches: System 5-SYS V(developed by AT&T and other commercial companies) and Berkeley software distribution-BSD(developed by students and professors University of California, Berkley). |
+|  1979  |  3BSD, the third edition, was released |
+|  1980  | 4.0BSD, the fourth version of the BSD Unix variant, was released |
+|  1982  | AT&T transferred its Unix development to Western Electric, the System III version of Unix. |
+|  1983  | Western Electric released System V, whereas System IV was reserved for only AT&T’s use |
+|  1984  | The USG<sup>*</sup> group, which was renamed the UNIX system development laboratory (USDL) group, released System V Release 2 (SVR2), which was the fi rst version of Unix that supported paging, shared memory, and other associated features. |
+|  1985  | Eighth edition of Unix was released on the basis of the 4.1BSD version. |
+|  1987  | The USDL group, which was renamed AT&T Information Systems (ATTIS) group, released System V Release 3 (SVR3) |
+|  1988  | 9<sup>th</sup> version of Unix was developed, and it was based on the 4.3BSD version. |
+|  1989  | 10<sup>th</sup> version of Unix was developed. |
 {: class="w3-responsive"}
 
 ## What is Linux?
