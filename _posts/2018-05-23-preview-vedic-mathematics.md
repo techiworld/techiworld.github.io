@@ -6,7 +6,7 @@ category: Vedic_Mathematics
 img: /static/IMG/maths2.jpeg
 MathJax: true
 color: deep-purple
-theme-color: "#673ab7"
+theme_color: "#673ab7"
 tags: 
 - Mathematics
 - Tricks
