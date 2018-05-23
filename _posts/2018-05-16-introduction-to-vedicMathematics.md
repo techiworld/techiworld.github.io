@@ -5,7 +5,7 @@ date:   2018-05-16 10:07:39 -0700
 category: Vedic_Mathematics
 img: /static/IMG/maths1.jpeg
 color: deep-purple
-theme-clor: "#673ab7"
+theme_color: "#673ab7"
 tags: 
 - Mathematics
 - Tricks
