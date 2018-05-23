@@ -66,6 +66,8 @@ X/Open specification, there's hope that UNIX and the many other UNIX−like syst
 |  1989  | 10<sup>th</sup> version of Unix was developed. |
 {: class="w3-responsive"}
 
+{% include MyNote.html note_type="info" span_note="Why C language is named so?" text="It was named "C" because its features were derived from an earlier language called "B", which according to Ken Thompson was a stripped-down version of the BCPL programming language'. C came out of Ken Thompson's Unix project at AT&T. He originally wrote Unix in assembly language." %}
+
 ## What is Linux?
 Linux is a freely distributed implementation of a **UNIX−like kernel**, the low level
 core of an operating system. Because Linux takes the UNIX system as its inspiration, Linux and UNIX programs are very similar. In fact, almost all programs written for UNIX can be compiled and run under Linux. Also, many commercial applications sold for commercial versions of UNIX can run unchanged in binary form on Linux systems. Linux was developed by Linus Torvalds at the University of Helsinki, with the help of UNIX programmers from across the Internet. It began as a hobby inspired by Andy Tanenbaum's Minix, a small UNIX system, but has grown to become a complete UNIX system in its own right. The Linux kernel doesn't use code from AT&T or any other proprietary source.
