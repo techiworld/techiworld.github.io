@@ -1,7 +1,14 @@
 ---
 layout: post
 title: Introduction to Vedic Mathematics
+date:   2018-05-23 10:07:39 -0700
+category: Vedic_Mathematics
+img: /static/IMG/maths1.jpg
 color: deep-purple
+theme-clor: "#673ab7"
+tags: 
+- Mathematics
+- Tricks
 ---
 
 The “Vedic Mathematics” is called so because of its origin from Vedas. To be more specific, it has originated from “Atharva Vedas” the fourth Veda. “Atharva Veda” deals with the branches like Engineering, Mathematics, sculpture, Medicine, and all other sciences with which we are today aware of.
