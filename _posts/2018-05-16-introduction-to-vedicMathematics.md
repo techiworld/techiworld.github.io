@@ -36,7 +36,7 @@ The 16 Sutras and Sub-sutras are given below with their pronunciation(in bracket
 5. शून्यम साम्यसमुच्चये (Sunyam Samyasamuccaye): When the samuchchaya is the same, the samuchchaya is zero, i.e it should be equated to zero.
 6. आनुरूप्ये (Anurupye): If one is in ratio, the other one is zero
 7. संक्लनव्यवकलनाभ्याम् (Sankalana-vyavakalanabhyam): By addition and by subtraction
-8. पूर्णापूर्णाभ्याम्* (Puranapuranabhyam): By the completion or non-completion
+8. पूरणापूराणाभ्याम् (Puranapuranabhyam): By the completion or non-completion
 9. चलनकलनाभ्यां (Calana-Kalanabhyam): By Calculus
 10. यावदूनम् (Yavadunam): By the deficiency
 11. व्यष्टिसमष्टि: (Vyastisamastih): Specific and General (Use the average)
