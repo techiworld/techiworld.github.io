@@ -1,6 +1,6 @@
 <header class="w3-container w3-top w3-{{ page.color | default: 'deep-orange' }} w3-xlarge w3-padding-16">
   <span class="w3-left w3-padding w3-hide-small"><img src="{{ site.baseurl }}/static/IMG/chip.svg" height="32" width="32" alt="logo"> {{ site.Title }}</span>
   {% if site.short_title %}<span class="w3-left w3-padding w3-hide-medium w3-hide-large"><img src="{{ site.baseurl }}/static/IMG/chip.svg" height="24" width="24" alt="logo"> {{ site.short_title }}</span>{% endif %}
-  <a href="javascript:void(0)" class="w3-{{ page.color | default: 'deep-orange' }} w3-right w3-button" onclick="w3_open()"><i class="fas fa-bars" height="24" width="24" alt="logo"></i></a>
+  <a href="javascript:void(0)" class="w3-{{ page.color | default: 'deep-orange' }} w3-right w3-button" onclick="w3_open()"><i class="fas fa-bars" style="font-size:24px;"></i></a>
   {% include site_search.html %}
 </header>
