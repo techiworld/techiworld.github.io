@@ -1,25 +1,25 @@
 ---
 layout: default
 ---
-<article class="post">
+<article>
 
-  <div class="post-content">
+  <div class="w3-container">
     {{ content }}
 
-    <div class="projects row">
+    <div class="w3-bar w3-deep-orange">
     {% include project_tags.html %}
     {% for i in site.data.projects %}
-    <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
+    <div class="project-item col-md-4 col-sm-6 col-xs-12" id="{{ i.tags }}"
     	<div class="well project-outer">
     		<div class="project-inner">
-    			<a href="/static/projects/{{ i.image }}" class="thickbox">
+    			<a href="/static/projects/{{ i.image }}" class="w3-image">
     			<div class="project-img bordered" style="background-image: url('/static/projects/{{ i.image }}');"></div>
                 </a>
                 {% if i.url %} <a href="{{ i.url }}"> {% endif %}
     			<h3 class="project-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
-    			<div class="project-content">
-    				<div class="tag-holder">
+    			<div class="w3-container w3-cards">
+    				<div class="w3-tags">
     				{% if i.tags %} 
     					{% for j in i.tags %}
     					<span class="label tags tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
@@ -42,3 +42,14 @@ layout: default
   </div>
 
 </article>
+<script>
+function openTag(TagName) {
+    var i;
+    var x = document.getElementsByClassName("Tag");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    document.getElementById(TagName).style.display = "block";  
+}
+</script>
+
