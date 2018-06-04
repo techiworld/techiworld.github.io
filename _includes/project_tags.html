@@ -19,7 +19,7 @@
 
         {% assign taglist = tags | split: '|' | sort %}
         {% for tag in taglist %}
-            <button class="w3-bar-item w3-button" data-tag="{{ tag | downcase }}">{{ tag }}</button>
+            <button class="w3-bar-item w3-button" onclick="openCity('{{ TagName }}')">{{ tag }}</button>
         {% endfor %}
 	</div>
 {% endif %}
