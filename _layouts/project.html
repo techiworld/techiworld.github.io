@@ -5,11 +5,9 @@ layout: default
 
   <div class="w3-container">
     {{ content }}
-
-    <div class="w3-bar w3-deep-orange">
     {% include project_tags.html %}
     {% for i in site.data.projects %}
-    <div class="project-item col-md-4 col-sm-6 col-xs-12" id="{{ i.tags }}"
+    <div class="w3-card Tag" id="{{ i.tags }}"
     	<div class="well project-outer">
     		<div class="project-inner">
     			<a href="/static/projects/{{ i.image }}" class="w3-image">
@@ -39,7 +37,6 @@ layout: default
         </div>
     {% endfor %}
     </div>
-  </div>
 
 </article>
 <script>
