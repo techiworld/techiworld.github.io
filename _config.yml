@@ -6,11 +6,13 @@ url: "https://chipprogrammers.github.io"
 Author: Arun K Soman
 Author_img: "/static/IMG/Arun.jpg"
 disqus_shortname: https-chipprogrammers-github-io-pimate
+addthis_id: ra-5aa39bfee6d7726e
+logo: "/static/IMG/chip.svg"
+favicon: "/assets/img/chip.ico"
 
 enableTags: true
 tagarray: []
 
-logo: "/static/IMG/logo.svg"
 paginate: 4
 paginate_path: "/blog/page:num/"
 highlighter: rouge
