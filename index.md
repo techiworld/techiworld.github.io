@@ -40,6 +40,10 @@ Hai... Friends, First of all I would like to say I am **not a webdesigner**. But
 | zebra stripes | are neat      |    $1 |    $200 |    Soman. |  Jestin. |
 {: class="w3-responsive"}
 
+## Embedd JS fiddle
+
+<script async src="//jsfiddle.net/rasagy/ub8Du/embed/"></script>
+
 ## Responsive math block using MathJax
 
 <div style="overflow-x:auto">
