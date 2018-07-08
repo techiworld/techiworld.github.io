@@ -42,7 +42,7 @@ Hai... Friends, First of all I would like to say I am **not a webdesigner**. But
 
 ## Embedd JS fiddle
 
-<script async src="//jsfiddle.net/rasagy/ub8Du/embed/"></script>
+<script async src="//jsfiddle.net/chipprogrammer/x6u5y3Ls/20/embed/js,html,css,result/dark/"></script>
 
 ## Responsive math block using MathJax
 
