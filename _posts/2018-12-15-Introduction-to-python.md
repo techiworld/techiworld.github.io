@@ -3,9 +3,9 @@ layout: post
 title: "Introduction to Python"
 date: 2018-12-15 23:07:39 -0700
 category: Python
-img: /static/img/maths2.jpeg
-color: deep-purple
-theme_color: "#33FFBD"
+img: /static/IMG/python-snake.jpg
+color: teal
+theme_color: "#009698"
 tags: 
 - Programming
 - Tutorial
