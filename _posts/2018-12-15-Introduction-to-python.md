@@ -3,7 +3,7 @@ layout: post
 title: "Introduction to Python"
 date: 2018-12-15 23:07:39 -0700
 category: Python
-img: /static/IMG/python-snake.jpg
+img: /static/IMG/python_snake.jpg
 color: teal
 theme_color: "#009688"
 tags: 
