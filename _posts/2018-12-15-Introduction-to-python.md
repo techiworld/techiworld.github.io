@@ -15,7 +15,7 @@ tags:
 
 - Python was developed by **_Guido Van Rossum_** at National Research Institute for Mathematics and Computer Science in Netherlands during 1985-1990
 - Python is derived from many other languages, including ABC, Modula-3, C, C++, Algol-68, SmallTalk, Unix shell and other scripting languages.
-{% include MyNote.html note_type="info" span_note="info<br />" text="Rossum was inspired from " Monty Python's Flying Circus", a BBC comedy series and he wanted the name of his new language to be short, unique and mysterious. Hence he named it Python. Hence Python programming language has no relation between snake python." %}
+{% include MyNote.html note_type="info" span_note="Info" text="<br />Rossum was inspired from &ldquo;Monty Python's Flying Circus&rdquo;, a BBC comedy series and he wanted the name of his new language to be short, unique and mysterious. Hence he named it Python. Hence Python programming language has no relation between snake python." %}
 - It was a general-purpose **interpreted**, interactive, object-oriented, and high-level programming language.
 - _Python source code is available under the GNU General Public License(GPL)_ and it is now maintained by a core development team at the National Research Institute.
 
