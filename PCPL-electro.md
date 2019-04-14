@@ -19,7 +19,9 @@ In order to install Python library used to read RC522, in current working direct
 <pre class="line-numbers">
 <code class="language-bash">
 {% raw %}
+cd my-project
 python setup.py install
+cd ..
 {% endraw %}
 </code>
 </pre>
