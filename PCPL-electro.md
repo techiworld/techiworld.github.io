@@ -116,3 +116,19 @@ def get_key():
 {% endraw %}
 </code>
 </pre>
+
+`fixed` is a variable that stores maximum digit number for transaction. Here I choose that as 5 so that we can do maximum transaction of ₹99999. `count` is the variable increments after each detection of each key press. `budget, count and fixed` are the variables used to convert each digits entered via key press into single number. `budget_enter` is an _indicator_ used to indicate whether 5 times key press occurred or not.
+
+<pre class="line-numbers" data-start="35">
+<code class="language-python">
+{% raw %}
+count = 0
+budget = 0
+cart = 0
+print("Enter your Budget as a 5 digit number on keypad:")
+fixed = 5
+Budget_enter = False
+{% endraw %}
+</code>
+</pre>
+{% include MyNote.html note_type="info" span_note="warning: " text="User have to enter digit as 5 digit number by prepending zeros to numbers. For example in order to enter 123, he should enter 00123"%}
