@@ -11,7 +11,7 @@ Clone my github repository using executing following commands one by one:
 cd ~
 git clone https://github.com/arunksoman/PCPL-electro.git
 cd PCPL-electro
-{% end raw %}
+{% endraw %}
 </code/>
 </pre>
 
@@ -20,6 +20,6 @@ In order to install Python library used to read RC522 in current working directo
 <code class="language-markdown">
 {% raw %}
 python setup.py install
-{% end raw %}
+{% endraw %}
 </code>
 </pre>
