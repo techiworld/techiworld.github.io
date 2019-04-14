@@ -67,3 +67,19 @@ keys = [
 </pre>
 
 {% include MyNote.html note_type="warning" span_note="Warning: " text="By pressing keys we are actually putting a short circuit between two GPIO pins. So that you have to make sure that columns are connected correctly. Unless there is chances for Blue smoke." %}
+
+Here I chose a 2D array (Python List) to  save name of product, RFID unique number, and price of product respectively.
+<pre class="line-numbers" data-start="14">
+<code class="language-python">
+{% raw %}
+product = [
+    ['Product1', 858624605840, 8000],
+    ['Product2', 236811894460, 1000],
+    ['Product3', 650705026722, 1200],
+    ['Product4', 99658219146, 800],
+    ['Product5', 30953647075, 900]
+    ]
+{% endraw %}
+</code>
+</pre>
+{% include MyNote.html note_type="info" span_note="Info: " text="Here I added only 5 cards. You have to add details of 5 more cards. I written unique ID of each card on it using a cd marker. You have to just make a 2D array using that info as I written above." %}
