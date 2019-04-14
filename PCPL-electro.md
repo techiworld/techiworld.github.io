@@ -131,4 +131,4 @@ Budget_enter = False
 {% endraw %}
 </code>
 </pre>
-{% include MyNote.html note_type="info" span_note="warning: " text="User have to enter digit as 5 digit number by prepending zeros to numbers. For example in order to enter 123, he should enter 00123"%}
+{% include MyNote.html note_type="warning" span_note="warning: " text="User have to enter digit as 5 digit number by prepending zeros to numbers. For example in order to enter 123, he should enter 00123"%}
