@@ -12,7 +12,7 @@ cd ~
 git clone https://github.com/arunksoman/PCPL-electro.git
 cd PCPL-electro
 {% endraw %}
-</code/>
+</code>
 </pre>
 
 In order to install Python library used to read RC522 in current working directory use following command:
