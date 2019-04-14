@@ -25,3 +25,28 @@ cd ..
 {% endraw %}
 </code>
 </pre>
+
+## Explanation: main.py
+
+Import necessary modules and packages:
+<pre class="line-numbers">
+<code class="language-python">
+{% raw %}
+import RPi.GPIO as GPIO
+import time
+import sys
+from mfrc522 import SimpleMFRC522
+{% endraw %}
+</code>
+</pre>
+
+Choosing Physical pin numbering as BOARD and warnings about using GPIO channels are neglected.
+
+<pre class="line-numbers" data-start="5">
+<code class="language-python">
+{% raw %}
+GPIO.setmode(GPIO.BOARD)GPIO.setwarnings(False)
+{% endraw %}
+</code>
+</pre>
+
