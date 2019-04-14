@@ -83,3 +83,19 @@ product = [
 </code>
 </pre>
 {% include MyNote.html note_type="info" span_note="Info: " text="Here I added only 5 cards. You have to add details of 5 more cards. I written unique ID of each card on it using a cd marker. You have to just make a 2D array using that info as I written above." %}
+
+As I mentioned in the class the GPIO pin connected to row of keypad  pulled-low to ground in order to avoid floating condition. GPIO pins connected to column is configured as output.
+
+<pre class="line-numbers" data-start="21">
+<code class="language-python">
+{% raw %}
+for row_pin in rows:
+    GPIO.setup(row_pin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+
+for col_pin in cols:
+    GPIO.setup(col_pin, GPIO.OUT)
+{% endraw %}
+</code>
+</pre>
+{% include MyNote.html note_type="info" span_note="Info: " text="Refer Raspberry Pi hardware reference <a href='https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/BCM2835-ARM-Peripherals.pdf'> documentation</a> in order to know which GPIO pins are pulled to LOW(Refer page number 102). If you have to change GPIO pins connected to keypad you have to keep this documentation in mind to find out GPIO pins pulled to ground."%}
+
