@@ -99,3 +99,20 @@ for col_pin in cols:
 </pre>
 {% include MyNote.html note_type="info" span_note="Info: " text="Refer Raspberry Pi hardware reference <a href='https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/BCM2835-ARM-Peripherals.pdf'> documentation</a> in order to know which GPIO pins are pulled to LOW(Refer page number 102). If you have to change GPIO pins connected to keypad you have to keep this documentation in mind to find out GPIO pins pulled to ground."%}
 
+The keypad is scanned by output a logical HIGH (1) through column pins one by one and scans for 0.3 seconds for key press in order to avoid noise as well as false key press. If there is a short circuit the raw GPIO pin gets a logical HIGH, so that we can detect key press. The following function helps to find out pressed key. Please go through 3 articles I given on readme file.
+
+<pre class="line-numbers" data-start="26">
+<code class="language-python">
+{% raw %}
+def get_key():
+    key = 0
+    for col_num, col_pin in enumerate(cols):
+        GPIO.output(col_pin, 1)
+        for row_num, row_pin in enumerate(rows):
+            if GPIO.input(row_pin):
+                key = keys[row_num][col_num]
+        GPIO.output(col_pin, 0)
+    return key
+{% endraw %}
+</code>
+</pre>
