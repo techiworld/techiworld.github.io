@@ -66,4 +66,4 @@ keys = [
 </code>
 </pre>
 
-{% include MyNote.html note_type="warning" span_note="Warning: " text="By pressing keys we are actually putting a short circuit between two GPIO pins. So that you have to make sure that columns are connected correctly. Unless there is chances for Blue smoke :rocket:" %}
+{% include MyNote.html note_type="warning" span_note="Warning: " text="By pressing keys we are actually putting a short circuit between two GPIO pins. So that you have to make sure that columns are connected correctly. Unless there is chances for Blue smoke." %}
