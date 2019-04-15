@@ -179,3 +179,20 @@ If more than 5 key press occurred warn customer  and our indicator variable that
 </code>
 </pre>
 
+Only after getting 5 digits(or setting Budget) RFID cards are read.
+
+<pre class="line-numbers" data-start="54">
+<code class="language-python">
+{% raw %}
+    if Budget_enter:
+        print("Hold a tag near the reader")
+        id, text = reader.read() 
+        print("ID: ", id)
+        print(type(id))
+{% endraw %}
+</code>
+</pre>
+{% include MyNote.html note_type="warning" span_note="warning: " text="Since only after setting Budget RFID cards, the program reads RFID card, the customer those who are not interested to set budget should enter 5 zeros. Or you have to assign a key like A, B, C , D, *, or # to skip the keypad reading on that key press and directly enter in to loop given above. You can do something like this:<br />
+`If key == "D":` <br />
+    `count = 6` <br />
+"%}
