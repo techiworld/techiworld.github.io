@@ -194,3 +194,23 @@ Only after getting 5 digits(or setting Budget) RFID cards are read.
 </pre>
 {% include MyNote.html note_type="warning" span_note="warning: " text="Since only after setting Budget RFID cards, the program reads RFID card, the customer those who are not interested to set budget should enter 5 zeros. Or you have to assign a key like A, B, C , D, *, or # to skip the keypad reading on that key press and directly enter in to loop given above. You can do something like this:<br />If key == 'D': <br />&nbsp; &nbsp; &nbsp; &nbsp; count = 6 <br />"%}
 
+Comparing RFID unique id stored on 2D list product. If find so, check the second index of 2D array to get prize of product. Add prize on the cart. If added up prize on the cart exceeds give a warning to customer. The program can terminate using keyboard interrupt `ctrl+c`. While terminating program the program automatically cleans up all GPIO entries.
+<pre class="line-numbers" data-start="59">
+<code class="language-python">
+{% raw %}
+         for index in range(5):
+            
+            if id == product[index][1]:
+                prize = product[index][2]
+                print(index)
+                print("prize = ", prize)
+        cart = cart + prize
+        print("cart = ", cart)
+        if cart > budget:
+            print("Warning: Your Budget Exceeded")
+    time.sleep(0.3)
+GPIO.cleanup()
+
+{% endraw %}
+</code>
+</pre>
