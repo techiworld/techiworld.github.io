@@ -192,7 +192,5 @@ Only after getting 5 digits(or setting Budget) RFID cards are read.
 {% endraw %}
 </code>
 </pre>
-{% include MyNote.html note_type="warning" span_note="warning: " text="Since only after setting Budget RFID cards, the program reads RFID card, the customer those who are not interested to set budget should enter 5 zeros. Or you have to assign a key like A, B, C , D, *, or # to skip the keypad reading on that key press and directly enter in to loop given above. You can do something like this:<br />
-`If key == "D":` <br />
-    `count = 6` <br />
-"%}
+{% include MyNote.html note_type="warning" span_note="warning: " text="Since only after setting Budget RFID cards, the program reads RFID card, the customer those who are not interested to set budget should enter 5 zeros. Or you have to assign a key like A, B, C , D, *, or # to skip the keypad reading on that key press and directly enter in to loop given above. You can do something like this:<br />`If key == 'D':` <br />    `count = 6` <br />"%}
+
