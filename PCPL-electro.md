@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RFID Project: PCPL
+title: PCPL RFID Project
 category: Electronics
 color: teal
 theme_color: "#009688"
