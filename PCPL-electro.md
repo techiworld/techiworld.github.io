@@ -166,3 +166,16 @@ while True:
 {% endraw %}
 </code>
 </pre>
+
+If more than 5 key press occurred warn customer  and our indicator variable that indicates whether 5 digit entered or not(`Budget_enter`) made True.
+
+<pre class="line-numbers" data-start="51">
+<code class="language-python">
+{% raw %}
+             if count >= 5:
+                Budget_enter = True
+                print("You can't enter more than 5 digits")
+{% endraw %}
+</code>
+</pre>
+
