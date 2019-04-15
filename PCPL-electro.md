@@ -148,3 +148,21 @@ reader = SimpleMFRC522()
 {% endraw %}
 </code>
 </pre>
+
+First line calls function `get_key()`. If less than 6 key press occurred it converts key press one by one to 5 digit number.
+
+<pre class="line-numbers" data-start="42">
+<code class="language-python">
+{% raw %}
+while True:
+    key = get_key()
+    if count < 6:
+        if key :
+            print("count = ",count)
+            count = count + 1
+            temp = int(key) * (10 ** (fixed - count))
+            budget = budget + temp
+            print("budget = ", budget)
+{% endraw %}
+</code>
+</pre>
