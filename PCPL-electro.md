@@ -1,7 +1,13 @@
 ---
-layout: default
-title: RFID Project Docs
-prism: true
+layout: post
+title: RFID Project: PCPL
+category: Electronics
+color: teal
+theme_color: "#009688"
+img: /static/IMG/raspberry_pi.jpg
+tags: 
+- Raspberry Pi
+- Python
 ---
 
 Clone my github repository using executing following commands one by one:
