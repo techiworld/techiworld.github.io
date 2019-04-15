@@ -132,3 +132,12 @@ Budget_enter = False
 </code>
 </pre>
 {% include MyNote.html note_type="warning" span_note="Warning: " text="User have to enter digit as 5 digit number by prepending zeros to numbers. For example in order to enter 123, he should enter 00123"%}
+
+Calling function within the package MFRC522. Please read MFRC522.py within directory MFRC522. This file is core of this project. I didn't discusses too much about this file due to this may be overwhelming for you. If you want know more [download](https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf&ved=2ahUKEwjohfmAkNHhAhXG7nMBHeCKCL4QFjAAegQIAhAB&usg=AOvVaw1_QoS_CiF5TGZvT5_-zxo6){:target="_blank"} MFRC522 data sheet by NXP (New brand name of well known **Philips** in chip manufacturing industry). Go to page 36. There they are discussed about more than 60 registers. Some of them are **reserved**. But most of them should be edited using program. Description of these registers extended to page 69. Followed by commands to communicate with MFRC522 to RPi on page 70. This is too much longer so that I didn't discussed. But you don't want to bother about that, just scan data sheet.
+<pre class="line-numbers" data-start="41">
+<code class="language-python">
+{% raw %}
+reader = SimpleMFRC522()
+{% endraw %}
+</code>
+</pre>
