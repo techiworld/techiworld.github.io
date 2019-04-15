@@ -5,6 +5,7 @@ category: Electronics
 color: teal
 theme_color: "#009688"
 img: /static/IMG/raspberry_pi.jpg
+prism: true
 tags: 
 - Raspberry Pi
 - Python
