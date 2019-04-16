@@ -33,6 +33,12 @@ cd ..
 </code>
 </pre>
 
+## Run Program
+- Rig up the circuit as discussed in class.
+- Run the program using main.py using Thonny Python IDE or using **python3 main.py** from terminal .
+- Enter Budget from keypad (In order to verify working of program you have to enter budget between 10,000 and 12,000.
+- Read RFID tags (white flat tags) one by one from  1 to 5.
+
 ## Explanation: main.py
 
 Import necessary modules and packages:
