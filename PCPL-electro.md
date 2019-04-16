@@ -22,7 +22,7 @@ cd PCPL-electro
 </code>
 </pre>
 
-In order to install Python library used to read RC522, in current working directory execute following command on terminal:
+Following commands are necessary for install Python library used to read RC522 in current working directory:
 <pre class="line-numbers">
 <code class="language-bash">
 {% raw %}
@@ -47,7 +47,7 @@ from mfrc522 import SimpleMFRC522
 </code>
 </pre>
 
-Choosing Physical pin numbering as BOARD and warnings about using GPIO channels are neglected.
+Choosing Physical pin numbering as BOARD and warnings about using GPIO channels are neglected using GPIO.setwarnings.
 
 <pre class="line-numbers" data-start="5">
 <code class="language-python">
@@ -73,7 +73,7 @@ keys = [
 </code>
 </pre>
 
-{% include MyNote.html note_type="warning" span_note="Warning: " text="By pressing keys we are actually putting a short circuit between two GPIO pins. So that you have to make sure that columns are connected correctly. Unless there is chances for Blue smoke." %}
+{% include MyNote.html note_type="warning" span_note="Warning: " text="By pressing keys we are actually putting a short circuit between two GPIO pins. So that you have to make sure that columns and rows are connected correctly. Unless there is chances for Blue smoke." %}
 
 Here I chose a 2D array (Python List) to  save name of product, RFID unique number, and price of product respectively.
 <pre class="line-numbers" data-start="14">
@@ -89,7 +89,7 @@ product = [
 {% endraw %}
 </code>
 </pre>
-{% include MyNote.html note_type="info" span_note="Info: " text="Here I added only 5 cards. You have to add details of 5 more cards. I written unique ID of each card on it using a cd marker. You have to just make a 2D array using that info as I written above." %}
+{% include MyNote.html note_type="info" span_note="Info: " text="Here I added only 5 cards(white tags not blue keychain ring). You have to add details of RFID keychain rings . I written unique ID of each rings and cards on it using a cd marker. You have to just make a 2D array using that info as I written above." %}
 
 As I mentioned in the class the GPIO pin connected to row of keypad  pulled-low to ground in order to avoid floating condition. GPIO pins connected to column is configured as output.
 
@@ -106,7 +106,7 @@ for col_pin in cols:
 </pre>
 {% include MyNote.html note_type="info" span_note="Info: " text="Refer Raspberry Pi hardware reference <a href='https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/BCM2835-ARM-Peripherals.pdf'> documentation</a> in order to know which GPIO pins are pulled to LOW(Refer page number 102). If you have to change GPIO pins connected to keypad you have to keep this documentation in mind to find out GPIO pins pulled to ground."%}
 
-The keypad is scanned by output a logical HIGH (1) through column pins one by one and scans for 0.3 seconds for key press in order to avoid noise as well as false key press. If there is a short circuit the raw GPIO pin gets a logical HIGH, so that we can detect key press. The following function helps to find out pressed key. Please go through 3 articles I given on readme file.
+The keypad is scanned by output a logical HIGH (1) through column pins one by one and scans for 0.3 seconds for key press in order to avoid noise as well as false key press. If there is a short circuit the raw GPIO pin gets a logical HIGH, so that we can detect key press. The following function helps to find out pressed key. Please go through 3 articles I given on [readme file](https://github.com/arunksoman/PCPL-electro/blob/master/README.md).
 
 <pre class="line-numbers" data-start="26">
 <code class="language-python">
@@ -124,7 +124,7 @@ def get_key():
 </code>
 </pre>
 
-`fixed` is a variable that stores maximum digit number for transaction. Here I choose that as 5 so that we can do maximum transaction of ₹99999. `count` is the variable increments after each detection of each key press. `budget, count and fixed` are the variables used to convert each digits entered via key press into single number. `budget_enter` is an _indicator_ used to indicate whether 5 times key press occurred or not.
+`fixed` is a variable that stores maximum digit that can be used for transaction. Here I choose that as 5 so that we can do maximum transaction of ₹99999. `count` is the variable increments after each detection of each key press. `budget, count and fixed` are the variables used to convert each digits entered via key press into single number. `budget_enter` is a boolean variable used as an  _indicator_  to identify whether 5 times key press occurred or not.
 
 <pre class="line-numbers" data-start="35">
 <code class="language-python">
@@ -138,9 +138,9 @@ Budget_enter = False
 {% endraw %}
 </code>
 </pre>
-{% include MyNote.html note_type="warning" span_note="Warning: " text="User have to enter digit as 5 digit number by prepending zeros to numbers. For example in order to enter 123, he should enter 00123"%}
+{% include MyNote.html note_type="warning" span_note="Warning: " text="User have to enter budget as 5 digit number by prepending zeros to number. For example in order to set budget as 123, he should enter 00123"%}
 
-Calling function within the package MFRC522. Please read MFRC522.py within directory MFRC522. This file is core of this project. I didn't discusses too much about this file due to this may be overwhelming for you. If you want know more [download](https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf&ved=2ahUKEwjohfmAkNHhAhXG7nMBHeCKCL4QFjAAegQIAhAB&usg=AOvVaw1_QoS_CiF5TGZvT5_-zxo6){:target="_blank"} MFRC522 data sheet by NXP (New brand name of well known **Philips** in chip manufacturing industry). Go to page 36. There they are discussed about more than 60 registers. Some of them are **reserved**. But most of them should be edited using program. Description of these registers extended to page 69. Followed by commands to communicate with MFRC522 to RPi on page 70. This is too much longer so that I didn't discussed. But you don't want to bother about that, just scan data sheet.
+Next line in the program just calls function within the Python package MFRC522. Please read MFRC522.py within directory MFRC522. This file is core of this project. I didn't discusses too much about this file due to lack of time. If you want know more [download](https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf&ved=2ahUKEwjohfmAkNHhAhXG7nMBHeCKCL4QFjAAegQIAhAB&usg=AOvVaw1_QoS_CiF5TGZvT5_-zxo6){:target="_blank"} MFRC522 data sheet by NXP (New brand name of well known **Philips** in chip manufacturing industry). Go to page 36. There NXP discussed about more than 60 registers. Some of them are **reserved**. But most of them should be edited by using program. Description of these registers extended up to page 69 followed by commands to communicate with MFRC522 to RPi on page 70. This is too much longer so that I didn't discussed. But you don't want to bother about that, just scan data sheet provided by manufacture.
 <pre class="line-numbers" data-start="41">
 <code class="language-python">
 {% raw %}
@@ -192,9 +192,9 @@ Only after getting 5 digits(or setting Budget) RFID cards are read.
 {% endraw %}
 </code>
 </pre>
-{% include MyNote.html note_type="warning" span_note="warning: " text="Since only after setting Budget RFID cards, the program reads RFID card, the customer those who are not interested to set budget should enter 5 zeros. Or you have to assign a key like A, B, C , D, *, or # to skip the keypad reading on that key press and directly enter in to loop given above. You can do something like this:<br />If key == 'D': <br />&nbsp; &nbsp; &nbsp; &nbsp; count = 6 <br />"%}
+{% include MyNote.html note_type="warning" span_note="warning: " text="Since only after setting Budget RFID cards, the program reads RFID card, the customer those who are not interested to set budget should enter 5 zeros. Or you have to assign a key like A, B, C , D, *, or # to skip the keypad reading on that key press and directly enter in to loop given above. You can do something like this by adding stickers <b>Yes</b> and <b>No</b> on key A and key D respectively(The logic is given, but you have to enter this carefully on the program):<br />print("Are you interested to enter Budget?)<br/>if key == 'A':<br />&nbsp; &nbsp; &nbsp; &nbsp; ## Program to read Budget from keypad<br />If key == 'D': <br />&nbsp; &nbsp; &nbsp; &nbsp; count = 6 <br />The count > 6 automatically sets indicator variable <b>Budget_enter</b> to True"%}
 
-Comparing RFID unique id stored on 2D list product. If find so, check the second index of 2D array to get prize of product. Add prize on the cart. If added up prize on the cart exceeds give a warning to customer. The program can terminate using keyboard interrupt `ctrl+c`. While terminating program the program automatically cleans up all GPIO entries.
+This part of the program comparing RFID unique id stored on 2D list product. If find so, check the second index of 2D array to get prize of product. Add prize on the cart. If added up prize on the cart exceeds give a warning to customer. The program can terminate using keyboard interrupt `ctrl+c`. While terminating program the program automatically cleans up all last GPIO entries.
 <pre class="line-numbers" data-start="59">
 <code class="language-python">
 {% raw %}
