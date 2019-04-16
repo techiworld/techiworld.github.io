@@ -53,8 +53,8 @@ cd ..
 
 ### Keypad Connections
 
-rows = [8, 37, 11, 12]
-cols = [32, 33, 35,36]
+- rows = [8, 37, 11, 12]
+- cols = [32, 33, 35,36]
 ## Explanation: main.py
 
 Import necessary modules and packages:
