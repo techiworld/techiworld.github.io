@@ -210,7 +210,6 @@ This part of the program comparing RFID unique id stored on 2D list product. If 
             print("Warning: Your Budget Exceeded")
     time.sleep(0.3)
 GPIO.cleanup()
-
 {% endraw %}
 </code>
 </pre>
