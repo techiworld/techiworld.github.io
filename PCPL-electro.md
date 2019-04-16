@@ -39,6 +39,22 @@ cd ..
 - Enter Budget from keypad (In order to verify working of program you have to enter budget between 10,000 and 12,000.
 - Read RFID tags (white flat tags) one by one from  1 to 5.
 
+### RC 522 Connections
+
+| PINS | Raspberry pi Physical Pin     |
+| ----------|:------------------------:|
+| SDA | Pin 24 |
+| SCK | Pin 23 |
+| MOSI | Pin 19 |
+| MISO | pin 21 |
+| GND | Pin 6 |
+| RST | pin 22 |
+| 3.3v | pin 1|
+
+### Keypad Connections
+
+rows = [8, 37, 11, 12]
+cols = [32, 33, 35,36]
 ## Explanation: main.py
 
 Import necessary modules and packages:
