@@ -250,7 +250,8 @@ In order to add and remove a product from cart one of you said an idea of adding
 cart = 1300
 product = [
     ['product1', 'id1', 1200, False],
-    ['product2', 'id2', 1300, False],     ['product3', 'id3', 14000, False],
+    ['product2', 'id2', 1300, False],
+    ['product3', 'id3', 14000, False],
     ['product4', 'id4', 10000, False], 
     ['product5', 'id5', 1300, False]
     ]
