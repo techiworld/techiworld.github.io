@@ -238,3 +238,46 @@ GPIO.cleanup()
 {% endraw %}
 </code>
 </pre>
+
+## How to remove a product from cart
+
+In order to add and remove a product from cart one of you said an idea of adding a counter and on even RFID reading product should be added up with cart and on odd RFID reading product should be removed from cart. But in order to do so we want one counter for each card (total 10 counters) also for checking each reading we have to do a modulo division by 2 to find out number of reading is odd or even. My idea to avoid this counter by using a boolean value as an indicator (as we discussed on **Budget_enter** variable) to each product on the list as shown on example program below. Just copy and paste program given below and run the program on Thonny Python IDE. Choose id1, id2, id3 id4 or id5 on prompt. Observe what happened to list **product**  and **cart** . Enter same id again and observe the change in **product** and **cart** .
+
+<pre class="line-numbers" data-start="1">
+<code class="language-python">
+{% raw %}
+#Let a product worth 1300 on cart
+cart = 1300
+product = [
+    ['product1', 'id1', 1200, False],
+    ['product2', 'id2', 1300, False],     ['product3', 'id3', 14000, False],
+    ['product4', 'id4', 10000, False], 
+    ['product5', 'id5', 1300, False]
+    ]
+
+id_select = input("Please Enter any id from id1 to id5: ")
+
+for index in range(5):
+	if id_select == product[index][1]:
+		print("prize = ", product[index][2])
+		if product[index][3] == False:
+			product[index][3] = True
+			## program to add product to cart
+			cart = cart + product[index][2]
+			print("Product added to cart =", cart)
+print(product)
+print("–---------------------------------------------------------------")
+id_select = input("Enter same id again: ")
+for index in range(5):
+	if id_select == product[index][1]:
+		print("prize = ", product[index][2])
+		if product[index][3] == True:
+			product[index][3] = False
+			## program to remove product from cart
+			cart = cart - product[index][2]
+			print("Product removed from cart =", cart)
+
+print(product)
+{% endraw %}
+</code>
+</pre>
