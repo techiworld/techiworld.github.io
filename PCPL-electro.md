@@ -11,7 +11,7 @@ tags:
 - Python
 ---
 
-Clone my github repository using executing following commands one by one:
+Clone my github repository by executing following commands one by one:
 <pre class="line-numbers">
 <code class="language-bash">
 {% raw %}
